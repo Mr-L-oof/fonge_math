@@ -1,0 +1,18 @@
+
+inline double1 double1::x() { return simde_mm256_cvtsd_f64(permute_pd_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline double1 double1::r() { return simde_mm256_cvtsd_f64(permute_pd_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline double2 double1::xx() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline double2 double1::rr() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline double3 double1::xxx() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline double3 double1::rrr() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline double4 double1::xxxx() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline double4 double1::rrrr() { return permute_pd_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+

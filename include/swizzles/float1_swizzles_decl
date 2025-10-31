@@ -1,0 +1,18 @@
+
+inline float1 x();
+
+inline float1 r();
+
+inline float2 xx();
+
+inline float2 rr();
+
+inline float3 xxx();
+
+inline float3 rrr();
+
+inline float4 xxxx();
+
+inline float4 rrrr();
+
+

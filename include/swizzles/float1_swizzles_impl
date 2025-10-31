@@ -1,0 +1,18 @@
+
+inline float1 float1::x() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline float1 float1::r() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline float2 float1::xx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float2 float1::rr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float3 float1::xxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline float3 float1::rrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline float4 float1::xxxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline float4 float1::rrrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+

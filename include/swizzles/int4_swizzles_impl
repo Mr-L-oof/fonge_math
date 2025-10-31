@@ -1,0 +1,1362 @@
+
+inline int1 int4::x() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline int1 int4::r() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline int1 int4::y() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1))); }
+
+inline int1 int4::g() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1))); }
+
+inline int1 int4::z() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2))); }
+
+inline int1 int4::b() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2))); }
+
+inline int1 int4::w() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3))); }
+
+inline int1 int4::a() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3))); }
+
+inline int2 int4::xx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int2 int4::rr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int2 int4::xy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int2 int4::rg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int2 int4::xz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int2 int4::rb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int2 int4::xw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int2 int4::ra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int2 int4::yx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int2 int4::gr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int2 int4::yy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int2 int4::gg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int2 int4::yz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int2 int4::gb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int2 int4::yw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int2 int4::ga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int2 int4::zx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int2 int4::br() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int2 int4::zy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int2 int4::bg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int2 int4::zz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int2 int4::bb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int2 int4::zw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int2 int4::ba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int2 int4::wx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int2 int4::ar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int2 int4::wy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int2 int4::ag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int2 int4::wz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int2 int4::ab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int2 int4::ww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int2 int4::aa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int3 int4::xxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int3 int4::rrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int3 int4::xxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline int3 int4::rrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline int3 int4::xxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int3 int4::rrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int3 int4::xxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 0)); }
+
+inline int3 int4::rra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 0)); }
+
+inline int3 int4::xyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline int3 int4::rgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline int3 int4::xyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline int3 int4::rgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline int3 int4::xyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int3 int4::rgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int3 int4::xyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 0)); }
+
+inline int3 int4::rga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 0)); }
+
+inline int3 int4::xzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline int3 int4::rbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline int3 int4::xzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline int3 int4::rbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline int3 int4::xzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int3 int4::rbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int3 int4::xzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 0)); }
+
+inline int3 int4::rba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 0)); }
+
+inline int3 int4::xwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 0)); }
+
+inline int3 int4::rar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 0)); }
+
+inline int3 int4::xwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 0)); }
+
+inline int3 int4::rag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 0)); }
+
+inline int3 int4::xwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int3 int4::rab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int3 int4::xww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 0)); }
+
+inline int3 int4::raa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 0)); }
+
+inline int3 int4::yxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline int3 int4::grr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline int3 int4::yxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline int3 int4::grg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline int3 int4::yxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int3 int4::grb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int3 int4::yxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 1)); }
+
+inline int3 int4::gra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 1)); }
+
+inline int3 int4::yyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline int3 int4::ggr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline int3 int4::yyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline int3 int4::ggg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline int3 int4::yyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int3 int4::ggb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int3 int4::yyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 1)); }
+
+inline int3 int4::gga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 1)); }
+
+inline int3 int4::yzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline int3 int4::gbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline int3 int4::yzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline int3 int4::gbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline int3 int4::yzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int3 int4::gbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int3 int4::yzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 1)); }
+
+inline int3 int4::gba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 1)); }
+
+inline int3 int4::ywx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 1)); }
+
+inline int3 int4::gar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 1)); }
+
+inline int3 int4::ywy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 1)); }
+
+inline int3 int4::gag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 1)); }
+
+inline int3 int4::ywz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int3 int4::gab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int3 int4::yww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 1)); }
+
+inline int3 int4::gaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 1)); }
+
+inline int3 int4::zxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline int3 int4::brr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline int3 int4::zxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline int3 int4::brg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline int3 int4::zxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int3 int4::brb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int3 int4::zxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 2)); }
+
+inline int3 int4::bra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 2)); }
+
+inline int3 int4::zyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline int3 int4::bgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline int3 int4::zyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline int3 int4::bgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline int3 int4::zyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int3 int4::bgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int3 int4::zyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 2)); }
+
+inline int3 int4::bga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 2)); }
+
+inline int3 int4::zzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline int3 int4::bbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline int3 int4::zzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline int3 int4::bbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline int3 int4::zzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int3 int4::bbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int3 int4::zzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 2)); }
+
+inline int3 int4::bba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 2)); }
+
+inline int3 int4::zwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 2)); }
+
+inline int3 int4::bar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 2)); }
+
+inline int3 int4::zwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 2)); }
+
+inline int3 int4::bag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 2)); }
+
+inline int3 int4::zwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int3 int4::bab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int3 int4::zww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 2)); }
+
+inline int3 int4::baa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 2)); }
+
+inline int3 int4::wxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 3)); }
+
+inline int3 int4::arr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 3)); }
+
+inline int3 int4::wxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 3)); }
+
+inline int3 int4::arg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 3)); }
+
+inline int3 int4::wxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int3 int4::arb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int3 int4::wxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 3)); }
+
+inline int3 int4::ara() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 3)); }
+
+inline int3 int4::wyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 3)); }
+
+inline int3 int4::agr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 3)); }
+
+inline int3 int4::wyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 3)); }
+
+inline int3 int4::agg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 3)); }
+
+inline int3 int4::wyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int3 int4::agb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int3 int4::wyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 3)); }
+
+inline int3 int4::aga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 3)); }
+
+inline int3 int4::wzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 3)); }
+
+inline int3 int4::abr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 3)); }
+
+inline int3 int4::wzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 3)); }
+
+inline int3 int4::abg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 3)); }
+
+inline int3 int4::wzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int3 int4::abb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int3 int4::wzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 3)); }
+
+inline int3 int4::aba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 3)); }
+
+inline int3 int4::wwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 3)); }
+
+inline int3 int4::aar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 3)); }
+
+inline int3 int4::wwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 3)); }
+
+inline int3 int4::aag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 3)); }
+
+inline int3 int4::wwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int3 int4::aab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int3 int4::www() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3)); }
+
+inline int3 int4::aaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3)); }
+
+inline int4 int4::xxxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline int4 int4::rrrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline int4 int4::xxxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 0)); }
+
+inline int4 int4::rrrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 0)); }
+
+inline int4 int4::xxxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 0)); }
+
+inline int4 int4::rrrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 0)); }
+
+inline int4 int4::xxxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int4 int4::rrra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int4 int4::xxyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 0)); }
+
+inline int4 int4::rrgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 0)); }
+
+inline int4 int4::xxyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 0)); }
+
+inline int4 int4::rrgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 0)); }
+
+inline int4 int4::xxyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 0)); }
+
+inline int4 int4::rrgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 0)); }
+
+inline int4 int4::xxyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline int4 int4::rrga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline int4 int4::xxzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 0)); }
+
+inline int4 int4::rrbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 0)); }
+
+inline int4 int4::xxzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 0)); }
+
+inline int4 int4::rrbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 0)); }
+
+inline int4 int4::xxzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 0)); }
+
+inline int4 int4::rrbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 0)); }
+
+inline int4 int4::xxzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int4 int4::rrba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int4 int4::xxwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 0)); }
+
+inline int4 int4::rrar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 0)); }
+
+inline int4 int4::xxwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 0)); }
+
+inline int4 int4::rrag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 0)); }
+
+inline int4 int4::xxwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 0)); }
+
+inline int4 int4::rrab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 0)); }
+
+inline int4 int4::xxww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 0)); }
+
+inline int4 int4::rraa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 0)); }
+
+inline int4 int4::xyxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 0)); }
+
+inline int4 int4::rgrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 0)); }
+
+inline int4 int4::xyxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 0)); }
+
+inline int4 int4::rgrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 0)); }
+
+inline int4 int4::xyxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 0)); }
+
+inline int4 int4::rgrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 0)); }
+
+inline int4 int4::xyxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline int4 int4::rgra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline int4 int4::xyyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 0)); }
+
+inline int4 int4::rggr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 0)); }
+
+inline int4 int4::xyyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 0)); }
+
+inline int4 int4::rggg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 0)); }
+
+inline int4 int4::xyyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 0)); }
+
+inline int4 int4::rggb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 0)); }
+
+inline int4 int4::xyyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline int4 int4::rgga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline int4 int4::xyzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 0)); }
+
+inline int4 int4::rgbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 0)); }
+
+inline int4 int4::xyzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 0)); }
+
+inline int4 int4::rgbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 0)); }
+
+inline int4 int4::xyzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 0)); }
+
+inline int4 int4::rgbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 0)); }
+
+inline int4 int4::xyzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int4 int4::rgba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline int4 int4::xywx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 0)); }
+
+inline int4 int4::rgar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 0)); }
+
+inline int4 int4::xywy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 0)); }
+
+inline int4 int4::rgag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 0)); }
+
+inline int4 int4::xywz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 0)); }
+
+inline int4 int4::rgab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 0)); }
+
+inline int4 int4::xyww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 0)); }
+
+inline int4 int4::rgaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 0)); }
+
+inline int4 int4::xzxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 0)); }
+
+inline int4 int4::rbrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 0)); }
+
+inline int4 int4::xzxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 0)); }
+
+inline int4 int4::rbrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 0)); }
+
+inline int4 int4::xzxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 0)); }
+
+inline int4 int4::rbrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 0)); }
+
+inline int4 int4::xzxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline int4 int4::rbra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline int4 int4::xzyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 0)); }
+
+inline int4 int4::rbgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 0)); }
+
+inline int4 int4::xzyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 0)); }
+
+inline int4 int4::rbgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 0)); }
+
+inline int4 int4::xzyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 0)); }
+
+inline int4 int4::rbgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 0)); }
+
+inline int4 int4::xzyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline int4 int4::rbga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline int4 int4::xzzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 0)); }
+
+inline int4 int4::rbbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 0)); }
+
+inline int4 int4::xzzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 0)); }
+
+inline int4 int4::rbbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 0)); }
+
+inline int4 int4::xzzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 0)); }
+
+inline int4 int4::rbbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 0)); }
+
+inline int4 int4::xzzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int4 int4::rbba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline int4 int4::xzwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 0)); }
+
+inline int4 int4::rbar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 0)); }
+
+inline int4 int4::xzwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 0)); }
+
+inline int4 int4::rbag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 0)); }
+
+inline int4 int4::xzwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 0)); }
+
+inline int4 int4::rbab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 0)); }
+
+inline int4 int4::xzww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 0)); }
+
+inline int4 int4::rbaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 0)); }
+
+inline int4 int4::xwxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 0)); }
+
+inline int4 int4::rarr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 0)); }
+
+inline int4 int4::xwxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 0)); }
+
+inline int4 int4::rarg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 0)); }
+
+inline int4 int4::xwxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 0)); }
+
+inline int4 int4::rarb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 0)); }
+
+inline int4 int4::xwxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 0)); }
+
+inline int4 int4::rara() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 0)); }
+
+inline int4 int4::xwyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 0)); }
+
+inline int4 int4::ragr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 0)); }
+
+inline int4 int4::xwyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 0)); }
+
+inline int4 int4::ragg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 0)); }
+
+inline int4 int4::xwyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 0)); }
+
+inline int4 int4::ragb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 0)); }
+
+inline int4 int4::xwyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 0)); }
+
+inline int4 int4::raga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 0)); }
+
+inline int4 int4::xwzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 0)); }
+
+inline int4 int4::rabr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 0)); }
+
+inline int4 int4::xwzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 0)); }
+
+inline int4 int4::rabg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 0)); }
+
+inline int4 int4::xwzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 0)); }
+
+inline int4 int4::rabb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 0)); }
+
+inline int4 int4::xwzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int4 int4::raba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 0)); }
+
+inline int4 int4::xwwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 0)); }
+
+inline int4 int4::raar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 0)); }
+
+inline int4 int4::xwwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 0)); }
+
+inline int4 int4::raag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 0)); }
+
+inline int4 int4::xwwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 0)); }
+
+inline int4 int4::raab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 0)); }
+
+inline int4 int4::xwww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 0)); }
+
+inline int4 int4::raaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 0)); }
+
+inline int4 int4::yxxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 1)); }
+
+inline int4 int4::grrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 1)); }
+
+inline int4 int4::yxxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 1)); }
+
+inline int4 int4::grrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 1)); }
+
+inline int4 int4::yxxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 1)); }
+
+inline int4 int4::grrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 1)); }
+
+inline int4 int4::yxxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline int4 int4::grra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline int4 int4::yxyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 1)); }
+
+inline int4 int4::grgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 1)); }
+
+inline int4 int4::yxyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 1)); }
+
+inline int4 int4::grgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 1)); }
+
+inline int4 int4::yxyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 1)); }
+
+inline int4 int4::grgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 1)); }
+
+inline int4 int4::yxyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline int4 int4::grga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline int4 int4::yxzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 1)); }
+
+inline int4 int4::grbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 1)); }
+
+inline int4 int4::yxzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 1)); }
+
+inline int4 int4::grbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 1)); }
+
+inline int4 int4::yxzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 1)); }
+
+inline int4 int4::grbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 1)); }
+
+inline int4 int4::yxzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int4 int4::grba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline int4 int4::yxwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 1)); }
+
+inline int4 int4::grar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 1)); }
+
+inline int4 int4::yxwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 1)); }
+
+inline int4 int4::grag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 1)); }
+
+inline int4 int4::yxwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 1)); }
+
+inline int4 int4::grab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 1)); }
+
+inline int4 int4::yxww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 1)); }
+
+inline int4 int4::graa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 1)); }
+
+inline int4 int4::yyxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 1)); }
+
+inline int4 int4::ggrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 1)); }
+
+inline int4 int4::yyxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 1)); }
+
+inline int4 int4::ggrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 1)); }
+
+inline int4 int4::yyxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 1)); }
+
+inline int4 int4::ggrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 1)); }
+
+inline int4 int4::yyxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline int4 int4::ggra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline int4 int4::yyyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 1)); }
+
+inline int4 int4::gggr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 1)); }
+
+inline int4 int4::yyyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1)); }
+
+inline int4 int4::gggg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1)); }
+
+inline int4 int4::yyyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 1)); }
+
+inline int4 int4::gggb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 1)); }
+
+inline int4 int4::yyyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline int4 int4::ggga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline int4 int4::yyzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 1)); }
+
+inline int4 int4::ggbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 1)); }
+
+inline int4 int4::yyzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 1)); }
+
+inline int4 int4::ggbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 1)); }
+
+inline int4 int4::yyzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 1)); }
+
+inline int4 int4::ggbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 1)); }
+
+inline int4 int4::yyzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int4 int4::ggba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline int4 int4::yywx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 1)); }
+
+inline int4 int4::ggar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 1)); }
+
+inline int4 int4::yywy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 1)); }
+
+inline int4 int4::ggag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 1)); }
+
+inline int4 int4::yywz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 1)); }
+
+inline int4 int4::ggab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 1)); }
+
+inline int4 int4::yyww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 1)); }
+
+inline int4 int4::ggaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 1)); }
+
+inline int4 int4::yzxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 1)); }
+
+inline int4 int4::gbrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 1)); }
+
+inline int4 int4::yzxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 1)); }
+
+inline int4 int4::gbrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 1)); }
+
+inline int4 int4::yzxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 1)); }
+
+inline int4 int4::gbrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 1)); }
+
+inline int4 int4::yzxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline int4 int4::gbra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline int4 int4::yzyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 1)); }
+
+inline int4 int4::gbgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 1)); }
+
+inline int4 int4::yzyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 1)); }
+
+inline int4 int4::gbgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 1)); }
+
+inline int4 int4::yzyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 1)); }
+
+inline int4 int4::gbgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 1)); }
+
+inline int4 int4::yzyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline int4 int4::gbga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline int4 int4::yzzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 1)); }
+
+inline int4 int4::gbbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 1)); }
+
+inline int4 int4::yzzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 1)); }
+
+inline int4 int4::gbbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 1)); }
+
+inline int4 int4::yzzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 1)); }
+
+inline int4 int4::gbbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 1)); }
+
+inline int4 int4::yzzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int4 int4::gbba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline int4 int4::yzwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 1)); }
+
+inline int4 int4::gbar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 1)); }
+
+inline int4 int4::yzwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 1)); }
+
+inline int4 int4::gbag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 1)); }
+
+inline int4 int4::yzwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 1)); }
+
+inline int4 int4::gbab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 1)); }
+
+inline int4 int4::yzww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 1)); }
+
+inline int4 int4::gbaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 1)); }
+
+inline int4 int4::ywxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 1)); }
+
+inline int4 int4::garr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 1)); }
+
+inline int4 int4::ywxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 1)); }
+
+inline int4 int4::garg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 1)); }
+
+inline int4 int4::ywxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 1)); }
+
+inline int4 int4::garb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 1)); }
+
+inline int4 int4::ywxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 1)); }
+
+inline int4 int4::gara() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 1)); }
+
+inline int4 int4::ywyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 1)); }
+
+inline int4 int4::gagr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 1)); }
+
+inline int4 int4::ywyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 1)); }
+
+inline int4 int4::gagg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 1)); }
+
+inline int4 int4::ywyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 1)); }
+
+inline int4 int4::gagb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 1)); }
+
+inline int4 int4::ywyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 1)); }
+
+inline int4 int4::gaga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 1)); }
+
+inline int4 int4::ywzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 1)); }
+
+inline int4 int4::gabr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 1)); }
+
+inline int4 int4::ywzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 1)); }
+
+inline int4 int4::gabg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 1)); }
+
+inline int4 int4::ywzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 1)); }
+
+inline int4 int4::gabb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 1)); }
+
+inline int4 int4::ywzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int4 int4::gaba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 1)); }
+
+inline int4 int4::ywwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 1)); }
+
+inline int4 int4::gaar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 1)); }
+
+inline int4 int4::ywwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 1)); }
+
+inline int4 int4::gaag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 1)); }
+
+inline int4 int4::ywwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 1)); }
+
+inline int4 int4::gaab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 1)); }
+
+inline int4 int4::ywww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 1)); }
+
+inline int4 int4::gaaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 1)); }
+
+inline int4 int4::zxxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 2)); }
+
+inline int4 int4::brrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 2)); }
+
+inline int4 int4::zxxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 2)); }
+
+inline int4 int4::brrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 2)); }
+
+inline int4 int4::zxxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 2)); }
+
+inline int4 int4::brrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 2)); }
+
+inline int4 int4::zxxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline int4 int4::brra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline int4 int4::zxyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 2)); }
+
+inline int4 int4::brgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 2)); }
+
+inline int4 int4::zxyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 2)); }
+
+inline int4 int4::brgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 2)); }
+
+inline int4 int4::zxyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 2)); }
+
+inline int4 int4::brgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 2)); }
+
+inline int4 int4::zxyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline int4 int4::brga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline int4 int4::zxzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 2)); }
+
+inline int4 int4::brbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 2)); }
+
+inline int4 int4::zxzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 2)); }
+
+inline int4 int4::brbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 2)); }
+
+inline int4 int4::zxzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 2)); }
+
+inline int4 int4::brbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 2)); }
+
+inline int4 int4::zxzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int4 int4::brba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline int4 int4::zxwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 2)); }
+
+inline int4 int4::brar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 2)); }
+
+inline int4 int4::zxwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 2)); }
+
+inline int4 int4::brag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 2)); }
+
+inline int4 int4::zxwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 2)); }
+
+inline int4 int4::brab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 2)); }
+
+inline int4 int4::zxww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 2)); }
+
+inline int4 int4::braa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 2)); }
+
+inline int4 int4::zyxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 2)); }
+
+inline int4 int4::bgrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 2)); }
+
+inline int4 int4::zyxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 2)); }
+
+inline int4 int4::bgrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 2)); }
+
+inline int4 int4::zyxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 2)); }
+
+inline int4 int4::bgrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 2)); }
+
+inline int4 int4::zyxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline int4 int4::bgra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline int4 int4::zyyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 2)); }
+
+inline int4 int4::bggr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 2)); }
+
+inline int4 int4::zyyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 2)); }
+
+inline int4 int4::bggg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 2)); }
+
+inline int4 int4::zyyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 2)); }
+
+inline int4 int4::bggb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 2)); }
+
+inline int4 int4::zyyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline int4 int4::bgga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline int4 int4::zyzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 2)); }
+
+inline int4 int4::bgbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 2)); }
+
+inline int4 int4::zyzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 2)); }
+
+inline int4 int4::bgbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 2)); }
+
+inline int4 int4::zyzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 2)); }
+
+inline int4 int4::bgbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 2)); }
+
+inline int4 int4::zyzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int4 int4::bgba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline int4 int4::zywx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 2)); }
+
+inline int4 int4::bgar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 2)); }
+
+inline int4 int4::zywy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 2)); }
+
+inline int4 int4::bgag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 2)); }
+
+inline int4 int4::zywz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 2)); }
+
+inline int4 int4::bgab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 2)); }
+
+inline int4 int4::zyww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 2)); }
+
+inline int4 int4::bgaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 2)); }
+
+inline int4 int4::zzxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 2)); }
+
+inline int4 int4::bbrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 2)); }
+
+inline int4 int4::zzxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 2)); }
+
+inline int4 int4::bbrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 2)); }
+
+inline int4 int4::zzxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 2)); }
+
+inline int4 int4::bbrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 2)); }
+
+inline int4 int4::zzxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline int4 int4::bbra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline int4 int4::zzyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 2)); }
+
+inline int4 int4::bbgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 2)); }
+
+inline int4 int4::zzyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 2)); }
+
+inline int4 int4::bbgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 2)); }
+
+inline int4 int4::zzyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 2)); }
+
+inline int4 int4::bbgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 2)); }
+
+inline int4 int4::zzyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline int4 int4::bbga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline int4 int4::zzzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 2)); }
+
+inline int4 int4::bbbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 2)); }
+
+inline int4 int4::zzzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 2)); }
+
+inline int4 int4::bbbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 2)); }
+
+inline int4 int4::zzzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2)); }
+
+inline int4 int4::bbbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2)); }
+
+inline int4 int4::zzzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int4 int4::bbba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline int4 int4::zzwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 2)); }
+
+inline int4 int4::bbar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 2)); }
+
+inline int4 int4::zzwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 2)); }
+
+inline int4 int4::bbag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 2)); }
+
+inline int4 int4::zzwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 2)); }
+
+inline int4 int4::bbab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 2)); }
+
+inline int4 int4::zzww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 2)); }
+
+inline int4 int4::bbaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 2)); }
+
+inline int4 int4::zwxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 2)); }
+
+inline int4 int4::barr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 2)); }
+
+inline int4 int4::zwxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 2)); }
+
+inline int4 int4::barg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 2)); }
+
+inline int4 int4::zwxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 2)); }
+
+inline int4 int4::barb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 2)); }
+
+inline int4 int4::zwxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 2)); }
+
+inline int4 int4::bara() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 2)); }
+
+inline int4 int4::zwyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 2)); }
+
+inline int4 int4::bagr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 2)); }
+
+inline int4 int4::zwyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 2)); }
+
+inline int4 int4::bagg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 2)); }
+
+inline int4 int4::zwyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 2)); }
+
+inline int4 int4::bagb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 2)); }
+
+inline int4 int4::zwyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 2)); }
+
+inline int4 int4::baga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 2)); }
+
+inline int4 int4::zwzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 2)); }
+
+inline int4 int4::babr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 2)); }
+
+inline int4 int4::zwzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 2)); }
+
+inline int4 int4::babg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 2)); }
+
+inline int4 int4::zwzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 2)); }
+
+inline int4 int4::babb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 2)); }
+
+inline int4 int4::zwzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int4 int4::baba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 2)); }
+
+inline int4 int4::zwwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 2)); }
+
+inline int4 int4::baar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 2)); }
+
+inline int4 int4::zwwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 2)); }
+
+inline int4 int4::baag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 2)); }
+
+inline int4 int4::zwwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 2)); }
+
+inline int4 int4::baab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 2)); }
+
+inline int4 int4::zwww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 2)); }
+
+inline int4 int4::baaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 2)); }
+
+inline int4 int4::wxxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 3)); }
+
+inline int4 int4::arrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 3)); }
+
+inline int4 int4::wxxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 3)); }
+
+inline int4 int4::arrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 3)); }
+
+inline int4 int4::wxxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 3)); }
+
+inline int4 int4::arrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 3)); }
+
+inline int4 int4::wxxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 3)); }
+
+inline int4 int4::arra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 3)); }
+
+inline int4 int4::wxyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 3)); }
+
+inline int4 int4::argr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 3)); }
+
+inline int4 int4::wxyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 3)); }
+
+inline int4 int4::argg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 3)); }
+
+inline int4 int4::wxyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 3)); }
+
+inline int4 int4::argb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 3)); }
+
+inline int4 int4::wxyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 3)); }
+
+inline int4 int4::arga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 3)); }
+
+inline int4 int4::wxzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 3)); }
+
+inline int4 int4::arbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 3)); }
+
+inline int4 int4::wxzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 3)); }
+
+inline int4 int4::arbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 3)); }
+
+inline int4 int4::wxzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 3)); }
+
+inline int4 int4::arbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 3)); }
+
+inline int4 int4::wxzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int4 int4::arba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 3)); }
+
+inline int4 int4::wxwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 3)); }
+
+inline int4 int4::arar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 0, 3)); }
+
+inline int4 int4::wxwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 3)); }
+
+inline int4 int4::arag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 0, 3)); }
+
+inline int4 int4::wxwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 3)); }
+
+inline int4 int4::arab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 0, 3)); }
+
+inline int4 int4::wxww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 3)); }
+
+inline int4 int4::araa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 0, 3)); }
+
+inline int4 int4::wyxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 3)); }
+
+inline int4 int4::agrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 3)); }
+
+inline int4 int4::wyxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 3)); }
+
+inline int4 int4::agrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 3)); }
+
+inline int4 int4::wyxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 3)); }
+
+inline int4 int4::agrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 3)); }
+
+inline int4 int4::wyxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 3)); }
+
+inline int4 int4::agra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 3)); }
+
+inline int4 int4::wyyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 3)); }
+
+inline int4 int4::aggr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 3)); }
+
+inline int4 int4::wyyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 3)); }
+
+inline int4 int4::aggg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 3)); }
+
+inline int4 int4::wyyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 3)); }
+
+inline int4 int4::aggb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 3)); }
+
+inline int4 int4::wyyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 3)); }
+
+inline int4 int4::agga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 3)); }
+
+inline int4 int4::wyzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 3)); }
+
+inline int4 int4::agbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 3)); }
+
+inline int4 int4::wyzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 3)); }
+
+inline int4 int4::agbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 3)); }
+
+inline int4 int4::wyzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 3)); }
+
+inline int4 int4::agbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 3)); }
+
+inline int4 int4::wyzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int4 int4::agba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 3)); }
+
+inline int4 int4::wywx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 3)); }
+
+inline int4 int4::agar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 1, 3)); }
+
+inline int4 int4::wywy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 3)); }
+
+inline int4 int4::agag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 1, 3)); }
+
+inline int4 int4::wywz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 3)); }
+
+inline int4 int4::agab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 1, 3)); }
+
+inline int4 int4::wyww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 3)); }
+
+inline int4 int4::agaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 1, 3)); }
+
+inline int4 int4::wzxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 3)); }
+
+inline int4 int4::abrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 3)); }
+
+inline int4 int4::wzxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 3)); }
+
+inline int4 int4::abrg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 3)); }
+
+inline int4 int4::wzxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 3)); }
+
+inline int4 int4::abrb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 3)); }
+
+inline int4 int4::wzxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 3)); }
+
+inline int4 int4::abra() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 3)); }
+
+inline int4 int4::wzyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 3)); }
+
+inline int4 int4::abgr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 3)); }
+
+inline int4 int4::wzyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 3)); }
+
+inline int4 int4::abgg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 3)); }
+
+inline int4 int4::wzyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 3)); }
+
+inline int4 int4::abgb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 3)); }
+
+inline int4 int4::wzyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 3)); }
+
+inline int4 int4::abga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 3)); }
+
+inline int4 int4::wzzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 3)); }
+
+inline int4 int4::abbr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 3)); }
+
+inline int4 int4::wzzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 3)); }
+
+inline int4 int4::abbg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 3)); }
+
+inline int4 int4::wzzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 3)); }
+
+inline int4 int4::abbb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 3)); }
+
+inline int4 int4::wzzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int4 int4::abba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 3)); }
+
+inline int4 int4::wzwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 3)); }
+
+inline int4 int4::abar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 2, 3)); }
+
+inline int4 int4::wzwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 3)); }
+
+inline int4 int4::abag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 2, 3)); }
+
+inline int4 int4::wzwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 3)); }
+
+inline int4 int4::abab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 2, 3)); }
+
+inline int4 int4::wzww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 3)); }
+
+inline int4 int4::abaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 2, 3)); }
+
+inline int4 int4::wwxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 3)); }
+
+inline int4 int4::aarr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 3, 3)); }
+
+inline int4 int4::wwxy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 3)); }
+
+inline int4 int4::aarg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 0, 3, 3)); }
+
+inline int4 int4::wwxz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 3)); }
+
+inline int4 int4::aarb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 0, 3, 3)); }
+
+inline int4 int4::wwxw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 3)); }
+
+inline int4 int4::aara() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 3, 3)); }
+
+inline int4 int4::wwyx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 3)); }
+
+inline int4 int4::aagr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 1, 3, 3)); }
+
+inline int4 int4::wwyy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 3)); }
+
+inline int4 int4::aagg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 1, 3, 3)); }
+
+inline int4 int4::wwyz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 3)); }
+
+inline int4 int4::aagb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 1, 3, 3)); }
+
+inline int4 int4::wwyw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 3)); }
+
+inline int4 int4::aaga() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 1, 3, 3)); }
+
+inline int4 int4::wwzx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 3)); }
+
+inline int4 int4::aabr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 2, 3, 3)); }
+
+inline int4 int4::wwzy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 3)); }
+
+inline int4 int4::aabg() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 2, 3, 3)); }
+
+inline int4 int4::wwzz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 3)); }
+
+inline int4 int4::aabb() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 2, 3, 3)); }
+
+inline int4 int4::wwzw() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int4 int4::aaba() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 3, 3)); }
+
+inline int4 int4::wwwx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 3)); }
+
+inline int4 int4::aaar() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 3, 3, 3)); }
+
+inline int4 int4::wwwy() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 3)); }
+
+inline int4 int4::aaag() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(1, 3, 3, 3)); }
+
+inline int4 int4::wwwz() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 3)); }
+
+inline int4 int4::aaab() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(2, 3, 3, 3)); }
+
+inline int4 int4::wwww() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3)); }
+
+inline int4 int4::aaaa() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 3, 3, 3)); }
+
+

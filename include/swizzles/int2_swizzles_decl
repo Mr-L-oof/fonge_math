@@ -1,0 +1,122 @@
+
+inline int1 x();
+
+inline int1 r();
+
+inline int1 y();
+
+inline int1 g();
+
+inline int2 xx();
+
+inline int2 rr();
+
+inline int2 xy();
+
+inline int2 rg();
+
+inline int2 yx();
+
+inline int2 gr();
+
+inline int2 yy();
+
+inline int2 gg();
+
+inline int3 xxx();
+
+inline int3 rrr();
+
+inline int3 xxy();
+
+inline int3 rrg();
+
+inline int3 xyx();
+
+inline int3 rgr();
+
+inline int3 xyy();
+
+inline int3 rgg();
+
+inline int3 yxx();
+
+inline int3 grr();
+
+inline int3 yxy();
+
+inline int3 grg();
+
+inline int3 yyx();
+
+inline int3 ggr();
+
+inline int3 yyy();
+
+inline int3 ggg();
+
+inline int4 xxxx();
+
+inline int4 rrrr();
+
+inline int4 xxxy();
+
+inline int4 rrrg();
+
+inline int4 xxyx();
+
+inline int4 rrgr();
+
+inline int4 xxyy();
+
+inline int4 rrgg();
+
+inline int4 xyxx();
+
+inline int4 rgrr();
+
+inline int4 xyxy();
+
+inline int4 rgrg();
+
+inline int4 xyyx();
+
+inline int4 rggr();
+
+inline int4 xyyy();
+
+inline int4 rggg();
+
+inline int4 yxxx();
+
+inline int4 grrr();
+
+inline int4 yxxy();
+
+inline int4 grrg();
+
+inline int4 yxyx();
+
+inline int4 grgr();
+
+inline int4 yxyy();
+
+inline int4 grgg();
+
+inline int4 yyxx();
+
+inline int4 ggrr();
+
+inline int4 yyxy();
+
+inline int4 ggrg();
+
+inline int4 yyyx();
+
+inline int4 gggr();
+
+inline int4 yyyy();
+
+inline int4 gggg();
+
+

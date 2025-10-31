@@ -1,0 +1,1362 @@
+
+inline float1 x();
+
+inline float1 r();
+
+inline float1 y();
+
+inline float1 g();
+
+inline float1 z();
+
+inline float1 b();
+
+inline float1 w();
+
+inline float1 a();
+
+inline float2 xx();
+
+inline float2 rr();
+
+inline float2 xy();
+
+inline float2 rg();
+
+inline float2 xz();
+
+inline float2 rb();
+
+inline float2 xw();
+
+inline float2 ra();
+
+inline float2 yx();
+
+inline float2 gr();
+
+inline float2 yy();
+
+inline float2 gg();
+
+inline float2 yz();
+
+inline float2 gb();
+
+inline float2 yw();
+
+inline float2 ga();
+
+inline float2 zx();
+
+inline float2 br();
+
+inline float2 zy();
+
+inline float2 bg();
+
+inline float2 zz();
+
+inline float2 bb();
+
+inline float2 zw();
+
+inline float2 ba();
+
+inline float2 wx();
+
+inline float2 ar();
+
+inline float2 wy();
+
+inline float2 ag();
+
+inline float2 wz();
+
+inline float2 ab();
+
+inline float2 ww();
+
+inline float2 aa();
+
+inline float3 xxx();
+
+inline float3 rrr();
+
+inline float3 xxy();
+
+inline float3 rrg();
+
+inline float3 xxz();
+
+inline float3 rrb();
+
+inline float3 xxw();
+
+inline float3 rra();
+
+inline float3 xyx();
+
+inline float3 rgr();
+
+inline float3 xyy();
+
+inline float3 rgg();
+
+inline float3 xyz();
+
+inline float3 rgb();
+
+inline float3 xyw();
+
+inline float3 rga();
+
+inline float3 xzx();
+
+inline float3 rbr();
+
+inline float3 xzy();
+
+inline float3 rbg();
+
+inline float3 xzz();
+
+inline float3 rbb();
+
+inline float3 xzw();
+
+inline float3 rba();
+
+inline float3 xwx();
+
+inline float3 rar();
+
+inline float3 xwy();
+
+inline float3 rag();
+
+inline float3 xwz();
+
+inline float3 rab();
+
+inline float3 xww();
+
+inline float3 raa();
+
+inline float3 yxx();
+
+inline float3 grr();
+
+inline float3 yxy();
+
+inline float3 grg();
+
+inline float3 yxz();
+
+inline float3 grb();
+
+inline float3 yxw();
+
+inline float3 gra();
+
+inline float3 yyx();
+
+inline float3 ggr();
+
+inline float3 yyy();
+
+inline float3 ggg();
+
+inline float3 yyz();
+
+inline float3 ggb();
+
+inline float3 yyw();
+
+inline float3 gga();
+
+inline float3 yzx();
+
+inline float3 gbr();
+
+inline float3 yzy();
+
+inline float3 gbg();
+
+inline float3 yzz();
+
+inline float3 gbb();
+
+inline float3 yzw();
+
+inline float3 gba();
+
+inline float3 ywx();
+
+inline float3 gar();
+
+inline float3 ywy();
+
+inline float3 gag();
+
+inline float3 ywz();
+
+inline float3 gab();
+
+inline float3 yww();
+
+inline float3 gaa();
+
+inline float3 zxx();
+
+inline float3 brr();
+
+inline float3 zxy();
+
+inline float3 brg();
+
+inline float3 zxz();
+
+inline float3 brb();
+
+inline float3 zxw();
+
+inline float3 bra();
+
+inline float3 zyx();
+
+inline float3 bgr();
+
+inline float3 zyy();
+
+inline float3 bgg();
+
+inline float3 zyz();
+
+inline float3 bgb();
+
+inline float3 zyw();
+
+inline float3 bga();
+
+inline float3 zzx();
+
+inline float3 bbr();
+
+inline float3 zzy();
+
+inline float3 bbg();
+
+inline float3 zzz();
+
+inline float3 bbb();
+
+inline float3 zzw();
+
+inline float3 bba();
+
+inline float3 zwx();
+
+inline float3 bar();
+
+inline float3 zwy();
+
+inline float3 bag();
+
+inline float3 zwz();
+
+inline float3 bab();
+
+inline float3 zww();
+
+inline float3 baa();
+
+inline float3 wxx();
+
+inline float3 arr();
+
+inline float3 wxy();
+
+inline float3 arg();
+
+inline float3 wxz();
+
+inline float3 arb();
+
+inline float3 wxw();
+
+inline float3 ara();
+
+inline float3 wyx();
+
+inline float3 agr();
+
+inline float3 wyy();
+
+inline float3 agg();
+
+inline float3 wyz();
+
+inline float3 agb();
+
+inline float3 wyw();
+
+inline float3 aga();
+
+inline float3 wzx();
+
+inline float3 abr();
+
+inline float3 wzy();
+
+inline float3 abg();
+
+inline float3 wzz();
+
+inline float3 abb();
+
+inline float3 wzw();
+
+inline float3 aba();
+
+inline float3 wwx();
+
+inline float3 aar();
+
+inline float3 wwy();
+
+inline float3 aag();
+
+inline float3 wwz();
+
+inline float3 aab();
+
+inline float3 www();
+
+inline float3 aaa();
+
+inline float4 xxxx();
+
+inline float4 rrrr();
+
+inline float4 xxxy();
+
+inline float4 rrrg();
+
+inline float4 xxxz();
+
+inline float4 rrrb();
+
+inline float4 xxxw();
+
+inline float4 rrra();
+
+inline float4 xxyx();
+
+inline float4 rrgr();
+
+inline float4 xxyy();
+
+inline float4 rrgg();
+
+inline float4 xxyz();
+
+inline float4 rrgb();
+
+inline float4 xxyw();
+
+inline float4 rrga();
+
+inline float4 xxzx();
+
+inline float4 rrbr();
+
+inline float4 xxzy();
+
+inline float4 rrbg();
+
+inline float4 xxzz();
+
+inline float4 rrbb();
+
+inline float4 xxzw();
+
+inline float4 rrba();
+
+inline float4 xxwx();
+
+inline float4 rrar();
+
+inline float4 xxwy();
+
+inline float4 rrag();
+
+inline float4 xxwz();
+
+inline float4 rrab();
+
+inline float4 xxww();
+
+inline float4 rraa();
+
+inline float4 xyxx();
+
+inline float4 rgrr();
+
+inline float4 xyxy();
+
+inline float4 rgrg();
+
+inline float4 xyxz();
+
+inline float4 rgrb();
+
+inline float4 xyxw();
+
+inline float4 rgra();
+
+inline float4 xyyx();
+
+inline float4 rggr();
+
+inline float4 xyyy();
+
+inline float4 rggg();
+
+inline float4 xyyz();
+
+inline float4 rggb();
+
+inline float4 xyyw();
+
+inline float4 rgga();
+
+inline float4 xyzx();
+
+inline float4 rgbr();
+
+inline float4 xyzy();
+
+inline float4 rgbg();
+
+inline float4 xyzz();
+
+inline float4 rgbb();
+
+inline float4 xyzw();
+
+inline float4 rgba();
+
+inline float4 xywx();
+
+inline float4 rgar();
+
+inline float4 xywy();
+
+inline float4 rgag();
+
+inline float4 xywz();
+
+inline float4 rgab();
+
+inline float4 xyww();
+
+inline float4 rgaa();
+
+inline float4 xzxx();
+
+inline float4 rbrr();
+
+inline float4 xzxy();
+
+inline float4 rbrg();
+
+inline float4 xzxz();
+
+inline float4 rbrb();
+
+inline float4 xzxw();
+
+inline float4 rbra();
+
+inline float4 xzyx();
+
+inline float4 rbgr();
+
+inline float4 xzyy();
+
+inline float4 rbgg();
+
+inline float4 xzyz();
+
+inline float4 rbgb();
+
+inline float4 xzyw();
+
+inline float4 rbga();
+
+inline float4 xzzx();
+
+inline float4 rbbr();
+
+inline float4 xzzy();
+
+inline float4 rbbg();
+
+inline float4 xzzz();
+
+inline float4 rbbb();
+
+inline float4 xzzw();
+
+inline float4 rbba();
+
+inline float4 xzwx();
+
+inline float4 rbar();
+
+inline float4 xzwy();
+
+inline float4 rbag();
+
+inline float4 xzwz();
+
+inline float4 rbab();
+
+inline float4 xzww();
+
+inline float4 rbaa();
+
+inline float4 xwxx();
+
+inline float4 rarr();
+
+inline float4 xwxy();
+
+inline float4 rarg();
+
+inline float4 xwxz();
+
+inline float4 rarb();
+
+inline float4 xwxw();
+
+inline float4 rara();
+
+inline float4 xwyx();
+
+inline float4 ragr();
+
+inline float4 xwyy();
+
+inline float4 ragg();
+
+inline float4 xwyz();
+
+inline float4 ragb();
+
+inline float4 xwyw();
+
+inline float4 raga();
+
+inline float4 xwzx();
+
+inline float4 rabr();
+
+inline float4 xwzy();
+
+inline float4 rabg();
+
+inline float4 xwzz();
+
+inline float4 rabb();
+
+inline float4 xwzw();
+
+inline float4 raba();
+
+inline float4 xwwx();
+
+inline float4 raar();
+
+inline float4 xwwy();
+
+inline float4 raag();
+
+inline float4 xwwz();
+
+inline float4 raab();
+
+inline float4 xwww();
+
+inline float4 raaa();
+
+inline float4 yxxx();
+
+inline float4 grrr();
+
+inline float4 yxxy();
+
+inline float4 grrg();
+
+inline float4 yxxz();
+
+inline float4 grrb();
+
+inline float4 yxxw();
+
+inline float4 grra();
+
+inline float4 yxyx();
+
+inline float4 grgr();
+
+inline float4 yxyy();
+
+inline float4 grgg();
+
+inline float4 yxyz();
+
+inline float4 grgb();
+
+inline float4 yxyw();
+
+inline float4 grga();
+
+inline float4 yxzx();
+
+inline float4 grbr();
+
+inline float4 yxzy();
+
+inline float4 grbg();
+
+inline float4 yxzz();
+
+inline float4 grbb();
+
+inline float4 yxzw();
+
+inline float4 grba();
+
+inline float4 yxwx();
+
+inline float4 grar();
+
+inline float4 yxwy();
+
+inline float4 grag();
+
+inline float4 yxwz();
+
+inline float4 grab();
+
+inline float4 yxww();
+
+inline float4 graa();
+
+inline float4 yyxx();
+
+inline float4 ggrr();
+
+inline float4 yyxy();
+
+inline float4 ggrg();
+
+inline float4 yyxz();
+
+inline float4 ggrb();
+
+inline float4 yyxw();
+
+inline float4 ggra();
+
+inline float4 yyyx();
+
+inline float4 gggr();
+
+inline float4 yyyy();
+
+inline float4 gggg();
+
+inline float4 yyyz();
+
+inline float4 gggb();
+
+inline float4 yyyw();
+
+inline float4 ggga();
+
+inline float4 yyzx();
+
+inline float4 ggbr();
+
+inline float4 yyzy();
+
+inline float4 ggbg();
+
+inline float4 yyzz();
+
+inline float4 ggbb();
+
+inline float4 yyzw();
+
+inline float4 ggba();
+
+inline float4 yywx();
+
+inline float4 ggar();
+
+inline float4 yywy();
+
+inline float4 ggag();
+
+inline float4 yywz();
+
+inline float4 ggab();
+
+inline float4 yyww();
+
+inline float4 ggaa();
+
+inline float4 yzxx();
+
+inline float4 gbrr();
+
+inline float4 yzxy();
+
+inline float4 gbrg();
+
+inline float4 yzxz();
+
+inline float4 gbrb();
+
+inline float4 yzxw();
+
+inline float4 gbra();
+
+inline float4 yzyx();
+
+inline float4 gbgr();
+
+inline float4 yzyy();
+
+inline float4 gbgg();
+
+inline float4 yzyz();
+
+inline float4 gbgb();
+
+inline float4 yzyw();
+
+inline float4 gbga();
+
+inline float4 yzzx();
+
+inline float4 gbbr();
+
+inline float4 yzzy();
+
+inline float4 gbbg();
+
+inline float4 yzzz();
+
+inline float4 gbbb();
+
+inline float4 yzzw();
+
+inline float4 gbba();
+
+inline float4 yzwx();
+
+inline float4 gbar();
+
+inline float4 yzwy();
+
+inline float4 gbag();
+
+inline float4 yzwz();
+
+inline float4 gbab();
+
+inline float4 yzww();
+
+inline float4 gbaa();
+
+inline float4 ywxx();
+
+inline float4 garr();
+
+inline float4 ywxy();
+
+inline float4 garg();
+
+inline float4 ywxz();
+
+inline float4 garb();
+
+inline float4 ywxw();
+
+inline float4 gara();
+
+inline float4 ywyx();
+
+inline float4 gagr();
+
+inline float4 ywyy();
+
+inline float4 gagg();
+
+inline float4 ywyz();
+
+inline float4 gagb();
+
+inline float4 ywyw();
+
+inline float4 gaga();
+
+inline float4 ywzx();
+
+inline float4 gabr();
+
+inline float4 ywzy();
+
+inline float4 gabg();
+
+inline float4 ywzz();
+
+inline float4 gabb();
+
+inline float4 ywzw();
+
+inline float4 gaba();
+
+inline float4 ywwx();
+
+inline float4 gaar();
+
+inline float4 ywwy();
+
+inline float4 gaag();
+
+inline float4 ywwz();
+
+inline float4 gaab();
+
+inline float4 ywww();
+
+inline float4 gaaa();
+
+inline float4 zxxx();
+
+inline float4 brrr();
+
+inline float4 zxxy();
+
+inline float4 brrg();
+
+inline float4 zxxz();
+
+inline float4 brrb();
+
+inline float4 zxxw();
+
+inline float4 brra();
+
+inline float4 zxyx();
+
+inline float4 brgr();
+
+inline float4 zxyy();
+
+inline float4 brgg();
+
+inline float4 zxyz();
+
+inline float4 brgb();
+
+inline float4 zxyw();
+
+inline float4 brga();
+
+inline float4 zxzx();
+
+inline float4 brbr();
+
+inline float4 zxzy();
+
+inline float4 brbg();
+
+inline float4 zxzz();
+
+inline float4 brbb();
+
+inline float4 zxzw();
+
+inline float4 brba();
+
+inline float4 zxwx();
+
+inline float4 brar();
+
+inline float4 zxwy();
+
+inline float4 brag();
+
+inline float4 zxwz();
+
+inline float4 brab();
+
+inline float4 zxww();
+
+inline float4 braa();
+
+inline float4 zyxx();
+
+inline float4 bgrr();
+
+inline float4 zyxy();
+
+inline float4 bgrg();
+
+inline float4 zyxz();
+
+inline float4 bgrb();
+
+inline float4 zyxw();
+
+inline float4 bgra();
+
+inline float4 zyyx();
+
+inline float4 bggr();
+
+inline float4 zyyy();
+
+inline float4 bggg();
+
+inline float4 zyyz();
+
+inline float4 bggb();
+
+inline float4 zyyw();
+
+inline float4 bgga();
+
+inline float4 zyzx();
+
+inline float4 bgbr();
+
+inline float4 zyzy();
+
+inline float4 bgbg();
+
+inline float4 zyzz();
+
+inline float4 bgbb();
+
+inline float4 zyzw();
+
+inline float4 bgba();
+
+inline float4 zywx();
+
+inline float4 bgar();
+
+inline float4 zywy();
+
+inline float4 bgag();
+
+inline float4 zywz();
+
+inline float4 bgab();
+
+inline float4 zyww();
+
+inline float4 bgaa();
+
+inline float4 zzxx();
+
+inline float4 bbrr();
+
+inline float4 zzxy();
+
+inline float4 bbrg();
+
+inline float4 zzxz();
+
+inline float4 bbrb();
+
+inline float4 zzxw();
+
+inline float4 bbra();
+
+inline float4 zzyx();
+
+inline float4 bbgr();
+
+inline float4 zzyy();
+
+inline float4 bbgg();
+
+inline float4 zzyz();
+
+inline float4 bbgb();
+
+inline float4 zzyw();
+
+inline float4 bbga();
+
+inline float4 zzzx();
+
+inline float4 bbbr();
+
+inline float4 zzzy();
+
+inline float4 bbbg();
+
+inline float4 zzzz();
+
+inline float4 bbbb();
+
+inline float4 zzzw();
+
+inline float4 bbba();
+
+inline float4 zzwx();
+
+inline float4 bbar();
+
+inline float4 zzwy();
+
+inline float4 bbag();
+
+inline float4 zzwz();
+
+inline float4 bbab();
+
+inline float4 zzww();
+
+inline float4 bbaa();
+
+inline float4 zwxx();
+
+inline float4 barr();
+
+inline float4 zwxy();
+
+inline float4 barg();
+
+inline float4 zwxz();
+
+inline float4 barb();
+
+inline float4 zwxw();
+
+inline float4 bara();
+
+inline float4 zwyx();
+
+inline float4 bagr();
+
+inline float4 zwyy();
+
+inline float4 bagg();
+
+inline float4 zwyz();
+
+inline float4 bagb();
+
+inline float4 zwyw();
+
+inline float4 baga();
+
+inline float4 zwzx();
+
+inline float4 babr();
+
+inline float4 zwzy();
+
+inline float4 babg();
+
+inline float4 zwzz();
+
+inline float4 babb();
+
+inline float4 zwzw();
+
+inline float4 baba();
+
+inline float4 zwwx();
+
+inline float4 baar();
+
+inline float4 zwwy();
+
+inline float4 baag();
+
+inline float4 zwwz();
+
+inline float4 baab();
+
+inline float4 zwww();
+
+inline float4 baaa();
+
+inline float4 wxxx();
+
+inline float4 arrr();
+
+inline float4 wxxy();
+
+inline float4 arrg();
+
+inline float4 wxxz();
+
+inline float4 arrb();
+
+inline float4 wxxw();
+
+inline float4 arra();
+
+inline float4 wxyx();
+
+inline float4 argr();
+
+inline float4 wxyy();
+
+inline float4 argg();
+
+inline float4 wxyz();
+
+inline float4 argb();
+
+inline float4 wxyw();
+
+inline float4 arga();
+
+inline float4 wxzx();
+
+inline float4 arbr();
+
+inline float4 wxzy();
+
+inline float4 arbg();
+
+inline float4 wxzz();
+
+inline float4 arbb();
+
+inline float4 wxzw();
+
+inline float4 arba();
+
+inline float4 wxwx();
+
+inline float4 arar();
+
+inline float4 wxwy();
+
+inline float4 arag();
+
+inline float4 wxwz();
+
+inline float4 arab();
+
+inline float4 wxww();
+
+inline float4 araa();
+
+inline float4 wyxx();
+
+inline float4 agrr();
+
+inline float4 wyxy();
+
+inline float4 agrg();
+
+inline float4 wyxz();
+
+inline float4 agrb();
+
+inline float4 wyxw();
+
+inline float4 agra();
+
+inline float4 wyyx();
+
+inline float4 aggr();
+
+inline float4 wyyy();
+
+inline float4 aggg();
+
+inline float4 wyyz();
+
+inline float4 aggb();
+
+inline float4 wyyw();
+
+inline float4 agga();
+
+inline float4 wyzx();
+
+inline float4 agbr();
+
+inline float4 wyzy();
+
+inline float4 agbg();
+
+inline float4 wyzz();
+
+inline float4 agbb();
+
+inline float4 wyzw();
+
+inline float4 agba();
+
+inline float4 wywx();
+
+inline float4 agar();
+
+inline float4 wywy();
+
+inline float4 agag();
+
+inline float4 wywz();
+
+inline float4 agab();
+
+inline float4 wyww();
+
+inline float4 agaa();
+
+inline float4 wzxx();
+
+inline float4 abrr();
+
+inline float4 wzxy();
+
+inline float4 abrg();
+
+inline float4 wzxz();
+
+inline float4 abrb();
+
+inline float4 wzxw();
+
+inline float4 abra();
+
+inline float4 wzyx();
+
+inline float4 abgr();
+
+inline float4 wzyy();
+
+inline float4 abgg();
+
+inline float4 wzyz();
+
+inline float4 abgb();
+
+inline float4 wzyw();
+
+inline float4 abga();
+
+inline float4 wzzx();
+
+inline float4 abbr();
+
+inline float4 wzzy();
+
+inline float4 abbg();
+
+inline float4 wzzz();
+
+inline float4 abbb();
+
+inline float4 wzzw();
+
+inline float4 abba();
+
+inline float4 wzwx();
+
+inline float4 abar();
+
+inline float4 wzwy();
+
+inline float4 abag();
+
+inline float4 wzwz();
+
+inline float4 abab();
+
+inline float4 wzww();
+
+inline float4 abaa();
+
+inline float4 wwxx();
+
+inline float4 aarr();
+
+inline float4 wwxy();
+
+inline float4 aarg();
+
+inline float4 wwxz();
+
+inline float4 aarb();
+
+inline float4 wwxw();
+
+inline float4 aara();
+
+inline float4 wwyx();
+
+inline float4 aagr();
+
+inline float4 wwyy();
+
+inline float4 aagg();
+
+inline float4 wwyz();
+
+inline float4 aagb();
+
+inline float4 wwyw();
+
+inline float4 aaga();
+
+inline float4 wwzx();
+
+inline float4 aabr();
+
+inline float4 wwzy();
+
+inline float4 aabg();
+
+inline float4 wwzz();
+
+inline float4 aabb();
+
+inline float4 wwzw();
+
+inline float4 aaba();
+
+inline float4 wwwx();
+
+inline float4 aaar();
+
+inline float4 wwwy();
+
+inline float4 aaag();
+
+inline float4 wwwz();
+
+inline float4 aaab();
+
+inline float4 wwww();
+
+inline float4 aaaa();
+
+

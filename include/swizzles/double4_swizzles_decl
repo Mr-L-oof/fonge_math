@@ -1,0 +1,1362 @@
+
+inline double1 x();
+
+inline double1 r();
+
+inline double1 y();
+
+inline double1 g();
+
+inline double1 z();
+
+inline double1 b();
+
+inline double1 w();
+
+inline double1 a();
+
+inline double2 xx();
+
+inline double2 rr();
+
+inline double2 xy();
+
+inline double2 rg();
+
+inline double2 xz();
+
+inline double2 rb();
+
+inline double2 xw();
+
+inline double2 ra();
+
+inline double2 yx();
+
+inline double2 gr();
+
+inline double2 yy();
+
+inline double2 gg();
+
+inline double2 yz();
+
+inline double2 gb();
+
+inline double2 yw();
+
+inline double2 ga();
+
+inline double2 zx();
+
+inline double2 br();
+
+inline double2 zy();
+
+inline double2 bg();
+
+inline double2 zz();
+
+inline double2 bb();
+
+inline double2 zw();
+
+inline double2 ba();
+
+inline double2 wx();
+
+inline double2 ar();
+
+inline double2 wy();
+
+inline double2 ag();
+
+inline double2 wz();
+
+inline double2 ab();
+
+inline double2 ww();
+
+inline double2 aa();
+
+inline double3 xxx();
+
+inline double3 rrr();
+
+inline double3 xxy();
+
+inline double3 rrg();
+
+inline double3 xxz();
+
+inline double3 rrb();
+
+inline double3 xxw();
+
+inline double3 rra();
+
+inline double3 xyx();
+
+inline double3 rgr();
+
+inline double3 xyy();
+
+inline double3 rgg();
+
+inline double3 xyz();
+
+inline double3 rgb();
+
+inline double3 xyw();
+
+inline double3 rga();
+
+inline double3 xzx();
+
+inline double3 rbr();
+
+inline double3 xzy();
+
+inline double3 rbg();
+
+inline double3 xzz();
+
+inline double3 rbb();
+
+inline double3 xzw();
+
+inline double3 rba();
+
+inline double3 xwx();
+
+inline double3 rar();
+
+inline double3 xwy();
+
+inline double3 rag();
+
+inline double3 xwz();
+
+inline double3 rab();
+
+inline double3 xww();
+
+inline double3 raa();
+
+inline double3 yxx();
+
+inline double3 grr();
+
+inline double3 yxy();
+
+inline double3 grg();
+
+inline double3 yxz();
+
+inline double3 grb();
+
+inline double3 yxw();
+
+inline double3 gra();
+
+inline double3 yyx();
+
+inline double3 ggr();
+
+inline double3 yyy();
+
+inline double3 ggg();
+
+inline double3 yyz();
+
+inline double3 ggb();
+
+inline double3 yyw();
+
+inline double3 gga();
+
+inline double3 yzx();
+
+inline double3 gbr();
+
+inline double3 yzy();
+
+inline double3 gbg();
+
+inline double3 yzz();
+
+inline double3 gbb();
+
+inline double3 yzw();
+
+inline double3 gba();
+
+inline double3 ywx();
+
+inline double3 gar();
+
+inline double3 ywy();
+
+inline double3 gag();
+
+inline double3 ywz();
+
+inline double3 gab();
+
+inline double3 yww();
+
+inline double3 gaa();
+
+inline double3 zxx();
+
+inline double3 brr();
+
+inline double3 zxy();
+
+inline double3 brg();
+
+inline double3 zxz();
+
+inline double3 brb();
+
+inline double3 zxw();
+
+inline double3 bra();
+
+inline double3 zyx();
+
+inline double3 bgr();
+
+inline double3 zyy();
+
+inline double3 bgg();
+
+inline double3 zyz();
+
+inline double3 bgb();
+
+inline double3 zyw();
+
+inline double3 bga();
+
+inline double3 zzx();
+
+inline double3 bbr();
+
+inline double3 zzy();
+
+inline double3 bbg();
+
+inline double3 zzz();
+
+inline double3 bbb();
+
+inline double3 zzw();
+
+inline double3 bba();
+
+inline double3 zwx();
+
+inline double3 bar();
+
+inline double3 zwy();
+
+inline double3 bag();
+
+inline double3 zwz();
+
+inline double3 bab();
+
+inline double3 zww();
+
+inline double3 baa();
+
+inline double3 wxx();
+
+inline double3 arr();
+
+inline double3 wxy();
+
+inline double3 arg();
+
+inline double3 wxz();
+
+inline double3 arb();
+
+inline double3 wxw();
+
+inline double3 ara();
+
+inline double3 wyx();
+
+inline double3 agr();
+
+inline double3 wyy();
+
+inline double3 agg();
+
+inline double3 wyz();
+
+inline double3 agb();
+
+inline double3 wyw();
+
+inline double3 aga();
+
+inline double3 wzx();
+
+inline double3 abr();
+
+inline double3 wzy();
+
+inline double3 abg();
+
+inline double3 wzz();
+
+inline double3 abb();
+
+inline double3 wzw();
+
+inline double3 aba();
+
+inline double3 wwx();
+
+inline double3 aar();
+
+inline double3 wwy();
+
+inline double3 aag();
+
+inline double3 wwz();
+
+inline double3 aab();
+
+inline double3 www();
+
+inline double3 aaa();
+
+inline double4 xxxx();
+
+inline double4 rrrr();
+
+inline double4 xxxy();
+
+inline double4 rrrg();
+
+inline double4 xxxz();
+
+inline double4 rrrb();
+
+inline double4 xxxw();
+
+inline double4 rrra();
+
+inline double4 xxyx();
+
+inline double4 rrgr();
+
+inline double4 xxyy();
+
+inline double4 rrgg();
+
+inline double4 xxyz();
+
+inline double4 rrgb();
+
+inline double4 xxyw();
+
+inline double4 rrga();
+
+inline double4 xxzx();
+
+inline double4 rrbr();
+
+inline double4 xxzy();
+
+inline double4 rrbg();
+
+inline double4 xxzz();
+
+inline double4 rrbb();
+
+inline double4 xxzw();
+
+inline double4 rrba();
+
+inline double4 xxwx();
+
+inline double4 rrar();
+
+inline double4 xxwy();
+
+inline double4 rrag();
+
+inline double4 xxwz();
+
+inline double4 rrab();
+
+inline double4 xxww();
+
+inline double4 rraa();
+
+inline double4 xyxx();
+
+inline double4 rgrr();
+
+inline double4 xyxy();
+
+inline double4 rgrg();
+
+inline double4 xyxz();
+
+inline double4 rgrb();
+
+inline double4 xyxw();
+
+inline double4 rgra();
+
+inline double4 xyyx();
+
+inline double4 rggr();
+
+inline double4 xyyy();
+
+inline double4 rggg();
+
+inline double4 xyyz();
+
+inline double4 rggb();
+
+inline double4 xyyw();
+
+inline double4 rgga();
+
+inline double4 xyzx();
+
+inline double4 rgbr();
+
+inline double4 xyzy();
+
+inline double4 rgbg();
+
+inline double4 xyzz();
+
+inline double4 rgbb();
+
+inline double4 xyzw();
+
+inline double4 rgba();
+
+inline double4 xywx();
+
+inline double4 rgar();
+
+inline double4 xywy();
+
+inline double4 rgag();
+
+inline double4 xywz();
+
+inline double4 rgab();
+
+inline double4 xyww();
+
+inline double4 rgaa();
+
+inline double4 xzxx();
+
+inline double4 rbrr();
+
+inline double4 xzxy();
+
+inline double4 rbrg();
+
+inline double4 xzxz();
+
+inline double4 rbrb();
+
+inline double4 xzxw();
+
+inline double4 rbra();
+
+inline double4 xzyx();
+
+inline double4 rbgr();
+
+inline double4 xzyy();
+
+inline double4 rbgg();
+
+inline double4 xzyz();
+
+inline double4 rbgb();
+
+inline double4 xzyw();
+
+inline double4 rbga();
+
+inline double4 xzzx();
+
+inline double4 rbbr();
+
+inline double4 xzzy();
+
+inline double4 rbbg();
+
+inline double4 xzzz();
+
+inline double4 rbbb();
+
+inline double4 xzzw();
+
+inline double4 rbba();
+
+inline double4 xzwx();
+
+inline double4 rbar();
+
+inline double4 xzwy();
+
+inline double4 rbag();
+
+inline double4 xzwz();
+
+inline double4 rbab();
+
+inline double4 xzww();
+
+inline double4 rbaa();
+
+inline double4 xwxx();
+
+inline double4 rarr();
+
+inline double4 xwxy();
+
+inline double4 rarg();
+
+inline double4 xwxz();
+
+inline double4 rarb();
+
+inline double4 xwxw();
+
+inline double4 rara();
+
+inline double4 xwyx();
+
+inline double4 ragr();
+
+inline double4 xwyy();
+
+inline double4 ragg();
+
+inline double4 xwyz();
+
+inline double4 ragb();
+
+inline double4 xwyw();
+
+inline double4 raga();
+
+inline double4 xwzx();
+
+inline double4 rabr();
+
+inline double4 xwzy();
+
+inline double4 rabg();
+
+inline double4 xwzz();
+
+inline double4 rabb();
+
+inline double4 xwzw();
+
+inline double4 raba();
+
+inline double4 xwwx();
+
+inline double4 raar();
+
+inline double4 xwwy();
+
+inline double4 raag();
+
+inline double4 xwwz();
+
+inline double4 raab();
+
+inline double4 xwww();
+
+inline double4 raaa();
+
+inline double4 yxxx();
+
+inline double4 grrr();
+
+inline double4 yxxy();
+
+inline double4 grrg();
+
+inline double4 yxxz();
+
+inline double4 grrb();
+
+inline double4 yxxw();
+
+inline double4 grra();
+
+inline double4 yxyx();
+
+inline double4 grgr();
+
+inline double4 yxyy();
+
+inline double4 grgg();
+
+inline double4 yxyz();
+
+inline double4 grgb();
+
+inline double4 yxyw();
+
+inline double4 grga();
+
+inline double4 yxzx();
+
+inline double4 grbr();
+
+inline double4 yxzy();
+
+inline double4 grbg();
+
+inline double4 yxzz();
+
+inline double4 grbb();
+
+inline double4 yxzw();
+
+inline double4 grba();
+
+inline double4 yxwx();
+
+inline double4 grar();
+
+inline double4 yxwy();
+
+inline double4 grag();
+
+inline double4 yxwz();
+
+inline double4 grab();
+
+inline double4 yxww();
+
+inline double4 graa();
+
+inline double4 yyxx();
+
+inline double4 ggrr();
+
+inline double4 yyxy();
+
+inline double4 ggrg();
+
+inline double4 yyxz();
+
+inline double4 ggrb();
+
+inline double4 yyxw();
+
+inline double4 ggra();
+
+inline double4 yyyx();
+
+inline double4 gggr();
+
+inline double4 yyyy();
+
+inline double4 gggg();
+
+inline double4 yyyz();
+
+inline double4 gggb();
+
+inline double4 yyyw();
+
+inline double4 ggga();
+
+inline double4 yyzx();
+
+inline double4 ggbr();
+
+inline double4 yyzy();
+
+inline double4 ggbg();
+
+inline double4 yyzz();
+
+inline double4 ggbb();
+
+inline double4 yyzw();
+
+inline double4 ggba();
+
+inline double4 yywx();
+
+inline double4 ggar();
+
+inline double4 yywy();
+
+inline double4 ggag();
+
+inline double4 yywz();
+
+inline double4 ggab();
+
+inline double4 yyww();
+
+inline double4 ggaa();
+
+inline double4 yzxx();
+
+inline double4 gbrr();
+
+inline double4 yzxy();
+
+inline double4 gbrg();
+
+inline double4 yzxz();
+
+inline double4 gbrb();
+
+inline double4 yzxw();
+
+inline double4 gbra();
+
+inline double4 yzyx();
+
+inline double4 gbgr();
+
+inline double4 yzyy();
+
+inline double4 gbgg();
+
+inline double4 yzyz();
+
+inline double4 gbgb();
+
+inline double4 yzyw();
+
+inline double4 gbga();
+
+inline double4 yzzx();
+
+inline double4 gbbr();
+
+inline double4 yzzy();
+
+inline double4 gbbg();
+
+inline double4 yzzz();
+
+inline double4 gbbb();
+
+inline double4 yzzw();
+
+inline double4 gbba();
+
+inline double4 yzwx();
+
+inline double4 gbar();
+
+inline double4 yzwy();
+
+inline double4 gbag();
+
+inline double4 yzwz();
+
+inline double4 gbab();
+
+inline double4 yzww();
+
+inline double4 gbaa();
+
+inline double4 ywxx();
+
+inline double4 garr();
+
+inline double4 ywxy();
+
+inline double4 garg();
+
+inline double4 ywxz();
+
+inline double4 garb();
+
+inline double4 ywxw();
+
+inline double4 gara();
+
+inline double4 ywyx();
+
+inline double4 gagr();
+
+inline double4 ywyy();
+
+inline double4 gagg();
+
+inline double4 ywyz();
+
+inline double4 gagb();
+
+inline double4 ywyw();
+
+inline double4 gaga();
+
+inline double4 ywzx();
+
+inline double4 gabr();
+
+inline double4 ywzy();
+
+inline double4 gabg();
+
+inline double4 ywzz();
+
+inline double4 gabb();
+
+inline double4 ywzw();
+
+inline double4 gaba();
+
+inline double4 ywwx();
+
+inline double4 gaar();
+
+inline double4 ywwy();
+
+inline double4 gaag();
+
+inline double4 ywwz();
+
+inline double4 gaab();
+
+inline double4 ywww();
+
+inline double4 gaaa();
+
+inline double4 zxxx();
+
+inline double4 brrr();
+
+inline double4 zxxy();
+
+inline double4 brrg();
+
+inline double4 zxxz();
+
+inline double4 brrb();
+
+inline double4 zxxw();
+
+inline double4 brra();
+
+inline double4 zxyx();
+
+inline double4 brgr();
+
+inline double4 zxyy();
+
+inline double4 brgg();
+
+inline double4 zxyz();
+
+inline double4 brgb();
+
+inline double4 zxyw();
+
+inline double4 brga();
+
+inline double4 zxzx();
+
+inline double4 brbr();
+
+inline double4 zxzy();
+
+inline double4 brbg();
+
+inline double4 zxzz();
+
+inline double4 brbb();
+
+inline double4 zxzw();
+
+inline double4 brba();
+
+inline double4 zxwx();
+
+inline double4 brar();
+
+inline double4 zxwy();
+
+inline double4 brag();
+
+inline double4 zxwz();
+
+inline double4 brab();
+
+inline double4 zxww();
+
+inline double4 braa();
+
+inline double4 zyxx();
+
+inline double4 bgrr();
+
+inline double4 zyxy();
+
+inline double4 bgrg();
+
+inline double4 zyxz();
+
+inline double4 bgrb();
+
+inline double4 zyxw();
+
+inline double4 bgra();
+
+inline double4 zyyx();
+
+inline double4 bggr();
+
+inline double4 zyyy();
+
+inline double4 bggg();
+
+inline double4 zyyz();
+
+inline double4 bggb();
+
+inline double4 zyyw();
+
+inline double4 bgga();
+
+inline double4 zyzx();
+
+inline double4 bgbr();
+
+inline double4 zyzy();
+
+inline double4 bgbg();
+
+inline double4 zyzz();
+
+inline double4 bgbb();
+
+inline double4 zyzw();
+
+inline double4 bgba();
+
+inline double4 zywx();
+
+inline double4 bgar();
+
+inline double4 zywy();
+
+inline double4 bgag();
+
+inline double4 zywz();
+
+inline double4 bgab();
+
+inline double4 zyww();
+
+inline double4 bgaa();
+
+inline double4 zzxx();
+
+inline double4 bbrr();
+
+inline double4 zzxy();
+
+inline double4 bbrg();
+
+inline double4 zzxz();
+
+inline double4 bbrb();
+
+inline double4 zzxw();
+
+inline double4 bbra();
+
+inline double4 zzyx();
+
+inline double4 bbgr();
+
+inline double4 zzyy();
+
+inline double4 bbgg();
+
+inline double4 zzyz();
+
+inline double4 bbgb();
+
+inline double4 zzyw();
+
+inline double4 bbga();
+
+inline double4 zzzx();
+
+inline double4 bbbr();
+
+inline double4 zzzy();
+
+inline double4 bbbg();
+
+inline double4 zzzz();
+
+inline double4 bbbb();
+
+inline double4 zzzw();
+
+inline double4 bbba();
+
+inline double4 zzwx();
+
+inline double4 bbar();
+
+inline double4 zzwy();
+
+inline double4 bbag();
+
+inline double4 zzwz();
+
+inline double4 bbab();
+
+inline double4 zzww();
+
+inline double4 bbaa();
+
+inline double4 zwxx();
+
+inline double4 barr();
+
+inline double4 zwxy();
+
+inline double4 barg();
+
+inline double4 zwxz();
+
+inline double4 barb();
+
+inline double4 zwxw();
+
+inline double4 bara();
+
+inline double4 zwyx();
+
+inline double4 bagr();
+
+inline double4 zwyy();
+
+inline double4 bagg();
+
+inline double4 zwyz();
+
+inline double4 bagb();
+
+inline double4 zwyw();
+
+inline double4 baga();
+
+inline double4 zwzx();
+
+inline double4 babr();
+
+inline double4 zwzy();
+
+inline double4 babg();
+
+inline double4 zwzz();
+
+inline double4 babb();
+
+inline double4 zwzw();
+
+inline double4 baba();
+
+inline double4 zwwx();
+
+inline double4 baar();
+
+inline double4 zwwy();
+
+inline double4 baag();
+
+inline double4 zwwz();
+
+inline double4 baab();
+
+inline double4 zwww();
+
+inline double4 baaa();
+
+inline double4 wxxx();
+
+inline double4 arrr();
+
+inline double4 wxxy();
+
+inline double4 arrg();
+
+inline double4 wxxz();
+
+inline double4 arrb();
+
+inline double4 wxxw();
+
+inline double4 arra();
+
+inline double4 wxyx();
+
+inline double4 argr();
+
+inline double4 wxyy();
+
+inline double4 argg();
+
+inline double4 wxyz();
+
+inline double4 argb();
+
+inline double4 wxyw();
+
+inline double4 arga();
+
+inline double4 wxzx();
+
+inline double4 arbr();
+
+inline double4 wxzy();
+
+inline double4 arbg();
+
+inline double4 wxzz();
+
+inline double4 arbb();
+
+inline double4 wxzw();
+
+inline double4 arba();
+
+inline double4 wxwx();
+
+inline double4 arar();
+
+inline double4 wxwy();
+
+inline double4 arag();
+
+inline double4 wxwz();
+
+inline double4 arab();
+
+inline double4 wxww();
+
+inline double4 araa();
+
+inline double4 wyxx();
+
+inline double4 agrr();
+
+inline double4 wyxy();
+
+inline double4 agrg();
+
+inline double4 wyxz();
+
+inline double4 agrb();
+
+inline double4 wyxw();
+
+inline double4 agra();
+
+inline double4 wyyx();
+
+inline double4 aggr();
+
+inline double4 wyyy();
+
+inline double4 aggg();
+
+inline double4 wyyz();
+
+inline double4 aggb();
+
+inline double4 wyyw();
+
+inline double4 agga();
+
+inline double4 wyzx();
+
+inline double4 agbr();
+
+inline double4 wyzy();
+
+inline double4 agbg();
+
+inline double4 wyzz();
+
+inline double4 agbb();
+
+inline double4 wyzw();
+
+inline double4 agba();
+
+inline double4 wywx();
+
+inline double4 agar();
+
+inline double4 wywy();
+
+inline double4 agag();
+
+inline double4 wywz();
+
+inline double4 agab();
+
+inline double4 wyww();
+
+inline double4 agaa();
+
+inline double4 wzxx();
+
+inline double4 abrr();
+
+inline double4 wzxy();
+
+inline double4 abrg();
+
+inline double4 wzxz();
+
+inline double4 abrb();
+
+inline double4 wzxw();
+
+inline double4 abra();
+
+inline double4 wzyx();
+
+inline double4 abgr();
+
+inline double4 wzyy();
+
+inline double4 abgg();
+
+inline double4 wzyz();
+
+inline double4 abgb();
+
+inline double4 wzyw();
+
+inline double4 abga();
+
+inline double4 wzzx();
+
+inline double4 abbr();
+
+inline double4 wzzy();
+
+inline double4 abbg();
+
+inline double4 wzzz();
+
+inline double4 abbb();
+
+inline double4 wzzw();
+
+inline double4 abba();
+
+inline double4 wzwx();
+
+inline double4 abar();
+
+inline double4 wzwy();
+
+inline double4 abag();
+
+inline double4 wzwz();
+
+inline double4 abab();
+
+inline double4 wzww();
+
+inline double4 abaa();
+
+inline double4 wwxx();
+
+inline double4 aarr();
+
+inline double4 wwxy();
+
+inline double4 aarg();
+
+inline double4 wwxz();
+
+inline double4 aarb();
+
+inline double4 wwxw();
+
+inline double4 aara();
+
+inline double4 wwyx();
+
+inline double4 aagr();
+
+inline double4 wwyy();
+
+inline double4 aagg();
+
+inline double4 wwyz();
+
+inline double4 aagb();
+
+inline double4 wwyw();
+
+inline double4 aaga();
+
+inline double4 wwzx();
+
+inline double4 aabr();
+
+inline double4 wwzy();
+
+inline double4 aabg();
+
+inline double4 wwzz();
+
+inline double4 aabb();
+
+inline double4 wwzw();
+
+inline double4 aaba();
+
+inline double4 wwwx();
+
+inline double4 aaar();
+
+inline double4 wwwy();
+
+inline double4 aaag();
+
+inline double4 wwwz();
+
+inline double4 aaab();
+
+inline double4 wwww();
+
+inline double4 aaaa();
+
+

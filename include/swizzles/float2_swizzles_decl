@@ -1,0 +1,122 @@
+
+inline float1 x();
+
+inline float1 r();
+
+inline float1 y();
+
+inline float1 g();
+
+inline float2 xx();
+
+inline float2 rr();
+
+inline float2 xy();
+
+inline float2 rg();
+
+inline float2 yx();
+
+inline float2 gr();
+
+inline float2 yy();
+
+inline float2 gg();
+
+inline float3 xxx();
+
+inline float3 rrr();
+
+inline float3 xxy();
+
+inline float3 rrg();
+
+inline float3 xyx();
+
+inline float3 rgr();
+
+inline float3 xyy();
+
+inline float3 rgg();
+
+inline float3 yxx();
+
+inline float3 grr();
+
+inline float3 yxy();
+
+inline float3 grg();
+
+inline float3 yyx();
+
+inline float3 ggr();
+
+inline float3 yyy();
+
+inline float3 ggg();
+
+inline float4 xxxx();
+
+inline float4 rrrr();
+
+inline float4 xxxy();
+
+inline float4 rrrg();
+
+inline float4 xxyx();
+
+inline float4 rrgr();
+
+inline float4 xxyy();
+
+inline float4 rrgg();
+
+inline float4 xyxx();
+
+inline float4 rgrr();
+
+inline float4 xyxy();
+
+inline float4 rgrg();
+
+inline float4 xyyx();
+
+inline float4 rggr();
+
+inline float4 xyyy();
+
+inline float4 rggg();
+
+inline float4 yxxx();
+
+inline float4 grrr();
+
+inline float4 yxxy();
+
+inline float4 grrg();
+
+inline float4 yxyx();
+
+inline float4 grgr();
+
+inline float4 yxyy();
+
+inline float4 grgg();
+
+inline float4 yyxx();
+
+inline float4 ggrr();
+
+inline float4 yyxy();
+
+inline float4 ggrg();
+
+inline float4 yyyx();
+
+inline float4 gggr();
+
+inline float4 yyyy();
+
+inline float4 gggg();
+
+

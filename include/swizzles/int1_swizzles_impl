@@ -1,0 +1,18 @@
+
+inline int1 int1::x() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline int1 int1::r() { return simde_mm_cvtsi128_si32(simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline int2 int1::xx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int2 int1::rr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline int3 int1::xxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int3 int1::rrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline int4 int1::xxxx() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline int4 int1::rrrr() { return simde_mm_shuffle_epi32(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+

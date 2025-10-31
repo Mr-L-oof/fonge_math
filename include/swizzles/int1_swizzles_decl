@@ -1,0 +1,18 @@
+
+inline int1 x();
+
+inline int1 r();
+
+inline int2 xx();
+
+inline int2 rr();
+
+inline int3 xxx();
+
+inline int3 rrr();
+
+inline int4 xxxx();
+
+inline int4 rrrr();
+
+

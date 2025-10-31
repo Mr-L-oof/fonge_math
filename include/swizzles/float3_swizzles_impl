@@ -1,0 +1,482 @@
+
+inline float1 float3::x() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline float1 float3::r() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0))); }
+
+inline float1 float3::y() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1))); }
+
+inline float1 float3::g() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1))); }
+
+inline float1 float3::z() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2))); }
+
+inline float1 float3::b() { return simde_mm_cvtss_f32(permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2))); }
+
+inline float2 float3::xx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float2 float3::rr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float2 float3::xy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline float2 float3::rg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline float2 float3::xz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline float2 float3::rb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline float2 float3::yx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline float2 float3::gr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline float2 float3::yy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline float2 float3::gg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline float2 float3::yz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline float2 float3::gb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline float2 float3::zx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline float2 float3::br() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline float2 float3::zy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline float2 float3::bg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline float2 float3::zz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline float2 float3::bb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline float3 float3::xxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline float3 float3::rrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 0)); }
+
+inline float3 float3::xxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline float3 float3::rrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 0)); }
+
+inline float3 float3::xxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float3 float3::rrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 0)); }
+
+inline float3 float3::xyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline float3 float3::rgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 0)); }
+
+inline float3 float3::xyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline float3 float3::rgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 0)); }
+
+inline float3 float3::xyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline float3 float3::rgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 0)); }
+
+inline float3 float3::xzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline float3 float3::rbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 0)); }
+
+inline float3 float3::xzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline float3 float3::rbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 0)); }
+
+inline float3 float3::xzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline float3 float3::rbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 0)); }
+
+inline float3 float3::yxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline float3 float3::grr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 1)); }
+
+inline float3 float3::yxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline float3 float3::grg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 1)); }
+
+inline float3 float3::yxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline float3 float3::grb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 1)); }
+
+inline float3 float3::yyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline float3 float3::ggr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 1)); }
+
+inline float3 float3::yyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline float3 float3::ggg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 1)); }
+
+inline float3 float3::yyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline float3 float3::ggb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 1)); }
+
+inline float3 float3::yzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline float3 float3::gbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 1)); }
+
+inline float3 float3::yzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline float3 float3::gbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 1)); }
+
+inline float3 float3::yzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline float3 float3::gbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 1)); }
+
+inline float3 float3::zxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline float3 float3::brr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 0, 2)); }
+
+inline float3 float3::zxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline float3 float3::brg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 0, 2)); }
+
+inline float3 float3::zxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline float3 float3::brb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 0, 2)); }
+
+inline float3 float3::zyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline float3 float3::bgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 1, 2)); }
+
+inline float3 float3::zyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline float3 float3::bgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 1, 2)); }
+
+inline float3 float3::zyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline float3 float3::bgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 1, 2)); }
+
+inline float3 float3::zzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline float3 float3::bbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 0, 2, 2)); }
+
+inline float3 float3::zzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline float3 float3::bbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 1, 2, 2)); }
+
+inline float3 float3::zzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline float3 float3::bbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(3, 2, 2, 2)); }
+
+inline float4 float3::xxxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline float4 float3::rrrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 0)); }
+
+inline float4 float3::xxxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 0)); }
+
+inline float4 float3::rrrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 0)); }
+
+inline float4 float3::xxxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 0)); }
+
+inline float4 float3::rrrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 0)); }
+
+inline float4 float3::xxyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 0)); }
+
+inline float4 float3::rrgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 0)); }
+
+inline float4 float3::xxyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 0)); }
+
+inline float4 float3::rrgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 0)); }
+
+inline float4 float3::xxyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 0)); }
+
+inline float4 float3::rrgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 0)); }
+
+inline float4 float3::xxzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 0)); }
+
+inline float4 float3::rrbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 0)); }
+
+inline float4 float3::xxzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 0)); }
+
+inline float4 float3::rrbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 0)); }
+
+inline float4 float3::xxzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 0)); }
+
+inline float4 float3::rrbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 0)); }
+
+inline float4 float3::xyxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 0)); }
+
+inline float4 float3::rgrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 0)); }
+
+inline float4 float3::xyxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 0)); }
+
+inline float4 float3::rgrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 0)); }
+
+inline float4 float3::xyxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 0)); }
+
+inline float4 float3::rgrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 0)); }
+
+inline float4 float3::xyyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 0)); }
+
+inline float4 float3::rggr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 0)); }
+
+inline float4 float3::xyyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 0)); }
+
+inline float4 float3::rggg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 0)); }
+
+inline float4 float3::xyyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 0)); }
+
+inline float4 float3::rggb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 0)); }
+
+inline float4 float3::xyzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 0)); }
+
+inline float4 float3::rgbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 0)); }
+
+inline float4 float3::xyzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 0)); }
+
+inline float4 float3::rgbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 0)); }
+
+inline float4 float3::xyzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 0)); }
+
+inline float4 float3::rgbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 0)); }
+
+inline float4 float3::xzxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 0)); }
+
+inline float4 float3::rbrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 0)); }
+
+inline float4 float3::xzxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 0)); }
+
+inline float4 float3::rbrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 0)); }
+
+inline float4 float3::xzxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 0)); }
+
+inline float4 float3::rbrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 0)); }
+
+inline float4 float3::xzyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 0)); }
+
+inline float4 float3::rbgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 0)); }
+
+inline float4 float3::xzyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 0)); }
+
+inline float4 float3::rbgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 0)); }
+
+inline float4 float3::xzyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 0)); }
+
+inline float4 float3::rbgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 0)); }
+
+inline float4 float3::xzzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 0)); }
+
+inline float4 float3::rbbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 0)); }
+
+inline float4 float3::xzzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 0)); }
+
+inline float4 float3::rbbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 0)); }
+
+inline float4 float3::xzzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 0)); }
+
+inline float4 float3::rbbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 0)); }
+
+inline float4 float3::yxxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 1)); }
+
+inline float4 float3::grrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 1)); }
+
+inline float4 float3::yxxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 1)); }
+
+inline float4 float3::grrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 1)); }
+
+inline float4 float3::yxxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 1)); }
+
+inline float4 float3::grrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 1)); }
+
+inline float4 float3::yxyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 1)); }
+
+inline float4 float3::grgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 1)); }
+
+inline float4 float3::yxyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 1)); }
+
+inline float4 float3::grgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 1)); }
+
+inline float4 float3::yxyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 1)); }
+
+inline float4 float3::grgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 1)); }
+
+inline float4 float3::yxzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 1)); }
+
+inline float4 float3::grbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 1)); }
+
+inline float4 float3::yxzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 1)); }
+
+inline float4 float3::grbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 1)); }
+
+inline float4 float3::yxzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 1)); }
+
+inline float4 float3::grbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 1)); }
+
+inline float4 float3::yyxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 1)); }
+
+inline float4 float3::ggrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 1)); }
+
+inline float4 float3::yyxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 1)); }
+
+inline float4 float3::ggrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 1)); }
+
+inline float4 float3::yyxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 1)); }
+
+inline float4 float3::ggrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 1)); }
+
+inline float4 float3::yyyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 1)); }
+
+inline float4 float3::gggr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 1)); }
+
+inline float4 float3::yyyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1)); }
+
+inline float4 float3::gggg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 1)); }
+
+inline float4 float3::yyyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 1)); }
+
+inline float4 float3::gggb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 1)); }
+
+inline float4 float3::yyzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 1)); }
+
+inline float4 float3::ggbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 1)); }
+
+inline float4 float3::yyzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 1)); }
+
+inline float4 float3::ggbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 1)); }
+
+inline float4 float3::yyzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 1)); }
+
+inline float4 float3::ggbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 1)); }
+
+inline float4 float3::yzxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 1)); }
+
+inline float4 float3::gbrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 1)); }
+
+inline float4 float3::yzxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 1)); }
+
+inline float4 float3::gbrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 1)); }
+
+inline float4 float3::yzxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 1)); }
+
+inline float4 float3::gbrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 1)); }
+
+inline float4 float3::yzyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 1)); }
+
+inline float4 float3::gbgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 1)); }
+
+inline float4 float3::yzyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 1)); }
+
+inline float4 float3::gbgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 1)); }
+
+inline float4 float3::yzyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 1)); }
+
+inline float4 float3::gbgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 1)); }
+
+inline float4 float3::yzzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 1)); }
+
+inline float4 float3::gbbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 1)); }
+
+inline float4 float3::yzzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 1)); }
+
+inline float4 float3::gbbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 1)); }
+
+inline float4 float3::yzzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 1)); }
+
+inline float4 float3::gbbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 1)); }
+
+inline float4 float3::zxxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 2)); }
+
+inline float4 float3::brrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 0, 2)); }
+
+inline float4 float3::zxxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 2)); }
+
+inline float4 float3::brrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 0, 2)); }
+
+inline float4 float3::zxxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 2)); }
+
+inline float4 float3::brrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 0, 2)); }
+
+inline float4 float3::zxyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 2)); }
+
+inline float4 float3::brgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 0, 2)); }
+
+inline float4 float3::zxyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 2)); }
+
+inline float4 float3::brgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 0, 2)); }
+
+inline float4 float3::zxyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 2)); }
+
+inline float4 float3::brgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 0, 2)); }
+
+inline float4 float3::zxzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 2)); }
+
+inline float4 float3::brbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 0, 2)); }
+
+inline float4 float3::zxzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 2)); }
+
+inline float4 float3::brbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 0, 2)); }
+
+inline float4 float3::zxzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 2)); }
+
+inline float4 float3::brbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 0, 2)); }
+
+inline float4 float3::zyxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 2)); }
+
+inline float4 float3::bgrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 1, 2)); }
+
+inline float4 float3::zyxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 2)); }
+
+inline float4 float3::bgrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 1, 2)); }
+
+inline float4 float3::zyxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 2)); }
+
+inline float4 float3::bgrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 1, 2)); }
+
+inline float4 float3::zyyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 2)); }
+
+inline float4 float3::bggr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 1, 2)); }
+
+inline float4 float3::zyyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 2)); }
+
+inline float4 float3::bggg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 1, 2)); }
+
+inline float4 float3::zyyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 2)); }
+
+inline float4 float3::bggb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 1, 2)); }
+
+inline float4 float3::zyzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 2)); }
+
+inline float4 float3::bgbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 1, 2)); }
+
+inline float4 float3::zyzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 2)); }
+
+inline float4 float3::bgbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 1, 2)); }
+
+inline float4 float3::zyzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 2)); }
+
+inline float4 float3::bgbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 1, 2)); }
+
+inline float4 float3::zzxx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 2)); }
+
+inline float4 float3::bbrr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 0, 2, 2)); }
+
+inline float4 float3::zzxy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 2)); }
+
+inline float4 float3::bbrg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 0, 2, 2)); }
+
+inline float4 float3::zzxz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 2)); }
+
+inline float4 float3::bbrb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 0, 2, 2)); }
+
+inline float4 float3::zzyx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 2)); }
+
+inline float4 float3::bbgr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 1, 2, 2)); }
+
+inline float4 float3::zzyy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 2)); }
+
+inline float4 float3::bbgg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 1, 2, 2)); }
+
+inline float4 float3::zzyz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 2)); }
+
+inline float4 float3::bbgb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 1, 2, 2)); }
+
+inline float4 float3::zzzx() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 2)); }
+
+inline float4 float3::bbbr() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(0, 2, 2, 2)); }
+
+inline float4 float3::zzzy() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 2)); }
+
+inline float4 float3::bbbg() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(1, 2, 2, 2)); }
+
+inline float4 float3::zzzz() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2)); }
+
+inline float4 float3::bbbb() { return permute_ps_custom(simd, SIMDE_MM_SHUFFLE(2, 2, 2, 2)); }
+
+

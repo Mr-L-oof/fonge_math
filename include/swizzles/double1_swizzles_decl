@@ -1,0 +1,18 @@
+
+inline double1 x();
+
+inline double1 r();
+
+inline double2 xx();
+
+inline double2 rr();
+
+inline double3 xxx();
+
+inline double3 rrr();
+
+inline double4 xxxx();
+
+inline double4 rrrr();
+
+
