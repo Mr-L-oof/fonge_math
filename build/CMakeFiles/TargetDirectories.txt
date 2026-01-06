@@ -26,6 +26,7 @@ C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/ContinuousTest.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/ContinuousCoverage.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/ContinuousSubmit.dir
+C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/testing.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/package.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/package_source.dir
 C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/test.dir

@@ -1,0 +1,6 @@
+float2_arithmetic 8 0.0931767
+float3_arithmetic 7 0.0457382
+float4_arithmetic 10 0.0584707
+quat_arithmetic 0 0
+---
+quat_arithmetic

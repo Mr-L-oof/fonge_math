@@ -4,9 +4,7 @@
 #include <array>
 #include <string>
 #include <vector>
-#include <iostream>
 #include <set>
-#include <functional>
 
 const char CHARIDS[8] = {'x', 'y', 'z', 'w', 'r', 'g', 'b', 'a'};
 const std::string primitives[4] = {"float", "double", "int"};
@@ -101,8 +99,8 @@ std::string get_swizzle(std::vector<uint32_t> ids, int type_id, int source_type_
 int main(void) {
     for (int t = 0; t < 3; t++) {
         for (int i = 0; i < 4; i++) {
-            FILE *fp = fopen(("include/swizzles/" + primitives[t] + std::to_string(i + 1) + "_swizzles_impl").c_str(), "w");
-            FILE *fp2 = fopen(("include/swizzles/" + primitives[t] + std::to_string(i + 1) + "_swizzles_decl").c_str(), "w");
+            FILE *fp = fopen(("include/fonge/swizzles/" + primitives[t] + std::to_string(i + 1) + "_swizzles_impl").c_str(), "w");
+            FILE *fp2 = fopen(("include/fonge/swizzles/" + primitives[t] + std::to_string(i + 1) + "_swizzles_decl").c_str(), "w");
             std::string wstr("\n");
             std::string wstr2("\n");
 
@@ -126,8 +124,8 @@ int main(void) {
                 }
             }
 
-            fprintf(fp, (wstr + "\n").c_str());
-            fprintf(fp2, (wstr2 + "\n").c_str());
+            fprintf(fp, "%s", (wstr + "\n").c_str());
+            fprintf(fp2, "%s", (wstr2 + "\n").c_str());
 
             fclose(fp);
         }

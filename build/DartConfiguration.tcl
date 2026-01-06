@@ -14,7 +14,7 @@ CostDataFile:
 Site: LionelsLaptop
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Win32-ninja
+BuildName: Win32-mingw32-make
 
 # Subprojects
 LabelsForSubprojects: 
@@ -28,7 +28,7 @@ NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
 ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Lionel/Documents/GitHub/fonge_math"
-MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Strawberry/c/bin/c++.exe
-CompilerVersion: 13.2.0
+Compiler: C:/Users/Lionel/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang++.exe
+CompilerVersion: 19.1.1
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/Strawberry/c/bin/gcov.exe
+CoverageCommand: C:/Users/Lionel/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

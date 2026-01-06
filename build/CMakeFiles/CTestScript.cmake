@@ -37,7 +37,7 @@ set(CTEST_P4_UPDATE_CUSTOM "")
 set(CTEST_P4_UPDATE_OPTIONS "")
 
 # CTest Configure Step
-set(CTEST_CMAKE_GENERATOR "Ninja")
+set(CTEST_CMAKE_GENERATOR "MinGW Makefiles")
 set(CTEST_LABELS_FOR_SUBPROJECTS "")
 
 # CTest Build Step
@@ -50,7 +50,7 @@ set(CTEST_TEST_LOAD "")
 set(CTEST_TEST_TIMEOUT "1500")
 
 # CTest Coverage Step
-set(CTEST_COVERAGE_COMMAND "C:/Strawberry/c/bin/gcov.exe")
+set(CTEST_COVERAGE_COMMAND "C:/Users/Lionel/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcov.exe")
 set(CTEST_COVERAGE_EXTRA_FLAGS "-l")
 
 # CTest MemCheck Step
@@ -62,7 +62,7 @@ set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
 set(CTEST_SITE "LionelsLaptop")
-set(CTEST_BUILD_NAME "Win32-ninja")
+set(CTEST_BUILD_NAME "Win32-mingw32-make")
 set(CTEST_SUBMIT_URL "http://")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")
 set(CTEST_TLS_VERIFY "")

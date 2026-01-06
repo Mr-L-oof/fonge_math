@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Win32-ninja"
+<Site BuildName="Win32-mingw32-make"
 	BuildStamp="20251031-2001-Experimental"
 	Name="LionelsLaptop"
 	Generator="ctest-4.1.1"
-	CompilerName="C:/Strawberry/c/bin/c++.exe"
-	CompilerVersion="13.2.0"
+	CompilerName="C:/Users/Lionel/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang++.exe"
+	CompilerVersion="19.1.1"
 	OSName="Windows"
 	Hostname="LionelsLaptop"
 	OSRelease=" Personal"
@@ -19,17 +19,17 @@
 	ProcessorCacheSize="-1"
 	NumberOfLogicalCPU="28"
 	NumberOfPhysicalCPU="20"
-	TotalVirtualMemory="36516"
+	TotalVirtualMemory="36471"
 	TotalPhysicalMemory="32471"
 	LogicalProcessorsPerPhysical="1"
 	ProcessorClockFrequency="2100"
 	>
 	<Testing>
-		<StartDateTime>Oct 31 16:04 Eastern Daylight Time</StartDateTime>
-		<StartTestTime>1761941068</StartTestTime>
+		<StartDateTime>Dec 30 21:45 Eastern Standard Time</StartDateTime>
+		<StartTestTime>1767149149</StartTestTime>
 		<TestList/>
-		<EndDateTime>Oct 31 16:04 Eastern Daylight Time</EndDateTime>
-		<EndTestTime>1761941068</EndTestTime>
+		<EndDateTime>Dec 30 21:45 Eastern Standard Time</EndDateTime>
+		<EndTestTime>1767149149</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

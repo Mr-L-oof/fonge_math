@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.wgsl": "wgsl",
+        "float4_swizzles_impl": "cpp"
+    }
+}

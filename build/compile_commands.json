@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/Lionel/Documents/GitHub/fonge_math/build",
-  "command": "C:\\Strawberry\\c\\bin\\c++.exe -g -o CMakeFiles\\fonge_math.dir\\fonge_math.cpp.obj -c C:\\Users\\Lionel\\Documents\\GitHub\\fonge_math\\fonge_math.cpp",
-  "file": "C:/Users/Lionel/Documents/GitHub/fonge_math/fonge_math.cpp",
-  "output": "C:/Users/Lionel/Documents/GitHub/fonge_math/build/CMakeFiles/fonge_math.dir/fonge_math.cpp.obj"
+  "command": "C:\\Users\\Lionel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe  @CMakeFiles/testing.dir/includes_CXX.rsp -g -o CMakeFiles\\testing.dir\\tests.cpp.obj -c C:\\Users\\Lionel\\Documents\\GitHub\\fonge_math\\tests.cpp",
+  "file": "C:/Users/Lionel/Documents/GitHub/fonge_math/tests.cpp",
+  "output": "CMakeFiles/testing.dir/tests.cpp.obj"
 }
 ]
