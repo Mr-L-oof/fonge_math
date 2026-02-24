@@ -1,7 +1,7 @@
 #pragma once
 
 #include "common_ops.hpp"
-#include "fonge/vector_double.hpp"
+#include "vector_double.hpp"
 #include "vector_float.hpp"
 
 namespace fonge {
