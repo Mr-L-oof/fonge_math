@@ -1,3 +1,1 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\testing.dir/objects.a
-C:\Users\Lionel\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\llvm-ar.exe qc CMakeFiles\testing.dir/objects.a @CMakeFiles\testing.dir\objects1.rsp
-C:\Users\Lionel\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\testing.dir/objects.a -Wl,--no-whole-archive -o testing.exe -Wl,--out-implib,libtesting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testing.dir\linkLibs.rsp
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/testing.dir/link.d CMakeFiles/testing.dir/tests.cpp.o -o testing

@@ -1,8 +1,8 @@
 [
 {
-  "directory": "C:/Users/Lionel/Documents/GitHub/fonge_math/build",
-  "command": "C:\\Users\\Lionel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe  @CMakeFiles/testing.dir/includes_CXX.rsp -g -o CMakeFiles\\testing.dir\\tests.cpp.obj -c C:\\Users\\Lionel\\Documents\\GitHub\\fonge_math\\tests.cpp",
-  "file": "C:/Users/Lionel/Documents/GitHub/fonge_math/tests.cpp",
-  "output": "CMakeFiles/testing.dir/tests.cpp.obj"
+  "directory": "/home/legaba/Documents/GitHub/fonge_math/build",
+  "command": "/usr/bin/c++  -I/home/legaba/Documents/GitHub/fonge_math/include -I/home/legaba/Documents/GitHub/fonge_math/external/simde  -o CMakeFiles/testing.dir/tests.cpp.o -c /home/legaba/Documents/GitHub/fonge_math/tests.cpp",
+  "file": "/home/legaba/Documents/GitHub/fonge_math/tests.cpp",
+  "output": "CMakeFiles/testing.dir/tests.cpp.o"
 }
 ]

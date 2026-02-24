@@ -7,6 +7,8 @@ target_include_directories(fonge_math INTERFACE "include/" "external/simde/")
 include(CTest)
 enable_testing()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_executable(testing tests.cpp)
 target_link_libraries(testing PRIVATE fonge_math)
 
