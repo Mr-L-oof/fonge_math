@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Win32-mingw32-make"
+<Site BuildName="Linux-clang++"
 	BuildStamp="20251031-2001-Experimental"
-	Name="LionelsLaptop"
-	Generator="ctest-4.1.1"
-	CompilerName="C:/Users/Lionel/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/clang++.exe"
-	CompilerVersion="19.1.1"
-	OSName="Windows"
-	Hostname="LionelsLaptop"
-	OSRelease=" Personal"
-	OSVersion=" (Build 22631)"
-	OSPlatform="AMD64"
+	Name="LionelsEpicGamingRig"
+	Generator="ctest-4.3.2"
+	CompilerName="/usr/sbin/clang++"
+	CompilerVersion="22.1.5"
+	OSName="Linux"
+	Hostname="LionelsEpicGamingRig"
+	OSRelease="7.0.8-zen1-1-zen"
+	OSVersion="#1 ZEN SMP PREEMPT_DYNAMIC Fri, 15 May 2026 16:45:03 +0000"
+	OSPlatform="x86_64"
 	Is64Bits="1"
-	VendorString="GenuineIntel"
-	VendorID="Intel Corporation"
-	FamilyID="6"
-	ModelID="7"
-	ModelName=""
-	ProcessorCacheSize="-1"
-	NumberOfLogicalCPU="28"
-	NumberOfPhysicalCPU="20"
-	TotalVirtualMemory="36471"
-	TotalPhysicalMemory="32471"
-	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="2100"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ModelName="AMD Ryzen 7 5700G with Radeon Graphics"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="5386"
+	TotalPhysicalMemory="31879"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4130.457031"
 	>
 	<Testing>
-		<StartDateTime>Dec 30 21:45 Eastern Standard Time</StartDateTime>
-		<StartTestTime>1767149149</StartTestTime>
+		<StartDateTime>May 18 11:02 EDT</StartDateTime>
+		<StartTestTime>1779116573</StartTestTime>
 		<TestList/>
-		<EndDateTime>Dec 30 21:45 Eastern Standard Time</EndDateTime>
-		<EndTestTime>1767149149</EndTestTime>
+		<EndDateTime>May 18 11:02 EDT</EndDateTime>
+		<EndTestTime>1779116573</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

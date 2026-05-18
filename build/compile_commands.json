@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/home/legaba/Documents/GitHub/fonge_math/build",
-  "command": "/usr/bin/c++  -I/home/legaba/Documents/GitHub/fonge_math/include -I/home/legaba/Documents/GitHub/fonge_math/external/simde  -o CMakeFiles/testing.dir/tests.cpp.o -c /home/legaba/Documents/GitHub/fonge_math/tests.cpp",
-  "file": "/home/legaba/Documents/GitHub/fonge_math/tests.cpp",
-  "output": "CMakeFiles/testing.dir/tests.cpp.o"
+  "directory": "/home/lgaba/Documents/opengl_test/extern/fonge_math/build",
+  "command": "/usr/sbin/clang++ -I/home/lgaba/Documents/opengl_test/extern/fonge_math/include -I/home/lgaba/Documents/opengl_test/extern/fonge_math/external/simde -g -o CMakeFiles/testing.dir/tests.cpp.o -c /home/lgaba/Documents/opengl_test/extern/fonge_math/tests.cpp",
+  "file": "/home/lgaba/Documents/opengl_test/extern/fonge_math/tests.cpp",
+  "output": "/home/lgaba/Documents/opengl_test/extern/fonge_math/build/CMakeFiles/testing.dir/tests.cpp.o"
 }
 ]

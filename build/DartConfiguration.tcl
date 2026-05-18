@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/legaba/Documents/GitHub/fonge_math
-BuildDirectory: /home/legaba/Documents/GitHub/fonge_math/build
+SourceDirectory: /home/lgaba/Documents/opengl_test/extern/fonge_math
+BuildDirectory: /home/lgaba/Documents/opengl_test/extern/fonge_math/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LMachine
+Site: LionelsEpicGamingRig
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Linux-clang++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -27,8 +27,8 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/legaba/Documents/GitHub/fonge_math"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/sbin/cmake" "/home/lgaba/Documents/opengl_test/extern/fonge_math"
+MakeCommand: /usr/sbin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/bin/git
+GITCommand: /usr/sbin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,13 +58,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/bin/git
+UpdateCommand: /usr/sbin/git
 UpdateOptions: 
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/c++
-CompilerVersion: 15.2.1
+Compiler: /usr/sbin/clang++
+CompilerVersion: 22.1.5
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: /usr/sbin/gcov
 CoverageExtraFlags: -l
 
 # Testing options

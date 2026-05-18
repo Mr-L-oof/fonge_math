@@ -42,7 +42,7 @@ struct double2x2 {
   inline double2 &operator[](size_t i) { return cols[i]; }
 
   inline bool operator==(double2x2 rhs) {
-    return (col1 == rhs.col1).all() && (col2 == rhs.col2).all();
+    return (col1 == rhs.col1) && (col2 == rhs.col2);
   }
 
   inline double2x2 transposed() {
@@ -120,8 +120,8 @@ struct double3x3 {
   inline double3 &operator[](size_t i) { return cols[i]; }
 
   inline bool operator==(double3x3 rhs) {
-    return (col1 == rhs.col1).all() && (col2 == rhs.col2).all() &&
-           (col3 == rhs.col3).all();
+    return (col1 == rhs.col1) && (col2 == rhs.col2) &&
+           (col3 == rhs.col3);
   }
 
   inline double3x3 transposed() {
@@ -216,8 +216,8 @@ struct double4x4 {
   inline double4 &operator[](size_t i) { return cols[i]; }
 
   inline bool operator==(double4x4 rhs) {
-    return (col1 == rhs.col1).all() && (col2 == rhs.col2).all() &&
-           (col3 == rhs.col3).all() && (col4 == rhs.col4).all();
+    return (col1 == rhs.col1) && (col2 == rhs.col2) &&
+           (col3 == rhs.col3) && (col4 == rhs.col4);
   }
 
   inline double4x4 transposed() {
