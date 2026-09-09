@@ -11,6 +11,8 @@ struct quat {
 
   inline quat(float3 complex_part, float real_part)
       : vec(complex_part, real_part) {}
+  
+  static inline quat identity() { return quat(); }
 
   static inline quat from_angle_axis(float angle, float3 axis) {
     return float4(axis * sinf(angle / 2), cosf(angle / 2));
@@ -21,9 +23,9 @@ struct quat {
   }
 
   static inline quat from_euler_zxy(float pitch, float yaw, float roll) {
-    return from_angle_axis(roll, float3::z_axis()) *
+    return (from_angle_axis(roll, float3::z_axis()) *
            from_angle_axis(pitch, float3::x_axis()) *
-           from_angle_axis(yaw, float3::y_axis());
+           from_angle_axis(yaw, float3::y_axis())).normalized();
   }
 
   inline quat conj() { return vec * float4(float3(-1), 1); }
@@ -70,7 +72,7 @@ struct quat {
   inline quat inverse() { return conj().vec / vec.len2(); }
 
   inline float4 rotate(float4 vec) {
-    return ((*this) * quat(vec) * conj()).vec;
+    return ((*this) * quat(vec) * inverse()).vec;
   }
 
   inline float3 rotate(float3 vec) { return rotate(float4(vec, 1)).xyz(); }
@@ -103,5 +105,7 @@ struct quat {
 static inline quat operator*(quat lhs, float rhs) { return lhs.vec * rhs; }
 
 static inline quat operator*(float lhs, quat rhs) { return rhs * lhs; }
+
+static inline quat operator/(quat lhs, float rhs) { return lhs.vec / float4(rhs);}
 
 } // namespace fonge

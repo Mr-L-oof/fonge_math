@@ -220,8 +220,8 @@ struct float4x4 {
   inline float determinant() { return col1.dot(col2.cross(col3, col4)); }
 
   inline float4x4 cofactor() {
-    return float4x4(col2.cross(col3, col4), col1.cross(col3, col2),
-                    col1.cross(col2, col4), col2.cross(col1, col3));
+    return float4x4(col2.cross(col3, col4), -col1.cross(col3, col4),
+                    col1.cross(col2, col4), -col1.cross(col2, col3));
   }
 
   inline float4x4 operator/(float rhs) {

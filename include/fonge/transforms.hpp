@@ -17,7 +17,7 @@ inline float3x3 translation3f(float2 displacement) {
 }
 
 inline float4x4 translation4f(float3 displacement) {
-  return float4x4::identity() + float4x4(0, 0, 0, float4(displacement, 0));
+  return float4x4(float4::x_axis(), float4::y_axis(), float4::z_axis(), float4(displacement, 1));
 }
 
 inline float2x2 rotation2f(float theta) {
@@ -47,12 +47,12 @@ inline float4x4 scale4f(float4 scale) {
 inline float4x4 perspectivef(float h_fov, float aspect, float near,
                              float far = 0) {
   h_fov *= DEG2RAD;
-  float sx = near * tanh(h_fov / 2);
-  float sy = sx / aspect;
+  float sx = 1.f/tanf(h_fov / 2);
+  float sy = sx * aspect;
 
-  if (far == 0.f) {
+  if (far < near) {
     return float4x4(sx * float4::x_axis(), sy * float4::y_axis(),
-                    -float4::w_axis(), near * float4::z_axis());
+                    -float4(0, 0,0, 1), near * float4::z_axis());
   } else {
     return float4x4(sx * float4::x_axis(), sy * float4::y_axis(),
                     float4(0, 0, near / (far - near), -1),
@@ -63,6 +63,15 @@ inline float4x4 perspectivef(float h_fov, float aspect, float near,
 inline float4x4 orthographicf(AABB3f frustum_box) {
   return scale4f(float4(float3(1.0f) / frustum_box.dimensions(), 1)) *
          (float4x4::identity() - translation4f(frustum_box.centroid()));
+}
+
+inline float4x4 look_at(float3 pos, float3 target, float3 up) {
+  float3 dir = (target - pos).normalized();
+  float3 right = up.cross(dir).normalized();
+  float3 cam_up = dir.cross(right);
+  return float4x4(
+    right, up, dir, float4::w_axis() 
+  ).transposed() * translation4f(-pos);
 }
 
 inline double3x3 translation3d(double2 displacement) {
@@ -102,8 +111,8 @@ inline double4x4 scale4d(double4 scale) {
 inline double4x4 perspectived(double h_fov, double aspect, double near,
                               double far = 0) {
   h_fov *= DEG2RAD;
-  double sx = near * tanh(h_fov / 2);
-  double sy = sx / aspect;
+  double sx = 1./tanh(h_fov / 2);
+  double sy = sx * aspect;
 
   if (far == 0.f) {
     return double4x4(sx * double4::x_axis(), sy * double4::y_axis(),
