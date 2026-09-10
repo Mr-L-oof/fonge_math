@@ -106,6 +106,4 @@ static inline quat operator*(quat lhs, float rhs) { return lhs.vec * rhs; }
 
 static inline quat operator*(float lhs, quat rhs) { return rhs * lhs; }
 
-static inline quat operator/(quat lhs, float rhs) { return lhs.vec / float4(rhs);}
-
 } // namespace fonge
